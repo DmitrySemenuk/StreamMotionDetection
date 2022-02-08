@@ -12,7 +12,7 @@
 		36FE99F2E4D056379397A7F4DDD566B6 /* Pods-StreamMotionDetection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B94C50E61C2E82114A342EDBFA9309 /* Pods-StreamMotionDetection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D09171583397A96CD5139F6E29047A8 /* Pods-StreamMotionDetection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D716BB95D13685ABFD547B35DE0C56 /* Pods-StreamMotionDetection_Tests-dummy.m */; };
 		57B3EEDBF133AD920DE574C2348BEE9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8AC8A07D1532746040434344ACE5D89D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764417BAD6D57553B2B9B91416AFFFA5 /* ReplaceMe.swift */; };
+		8AC8A07D1532746040434344ACE5D89D /* StreamMotionDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764417BAD6D57553B2B9B91416AFFFA5 /* StreamMotionDetection.swift */; };
 		8C63BE1CDA06F29EF82F5783AAF069B0 /* StreamMotionDetection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFF1EA0A37060E23A6CAAF444AE1C18 /* StreamMotionDetection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1EC62D23E904338E546F54FE53E0267 /* Pods-StreamMotionDetection_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E809282FBA645C543D865404C1CFF55B /* Pods-StreamMotionDetection_Example-dummy.m */; };
 		C499A2028BCFD705193575ACD5D25307 /* StreamMotionDetection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DA686D4D23BF8CF4B9FDFD312E1235 /* StreamMotionDetection-dummy.m */; };
@@ -49,7 +49,7 @@
 		6B73464446FD1C6BF37A89AF0A1A7161 /* StreamMotionDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamMotionDetection.release.xcconfig; sourceTree = "<group>"; };
 		7023AFD9552BD653B8AAAE55350A02FC /* Pods-StreamMotionDetection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StreamMotionDetection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		764417BAD6D57553B2B9B91416AFFFA5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = StreamMotionDetection/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		764417BAD6D57553B2B9B91416AFFFA5 /* StreamMotionDetection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamMotionDetection.swift; path = StreamMotionDetection/Classes/StreamMotionDetection.swift; sourceTree = "<group>"; };
 		7C1579D436187C65764BD4441902F1AF /* StreamMotionDetection.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StreamMotionDetection.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7EFF1EA0A37060E23A6CAAF444AE1C18 /* StreamMotionDetection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamMotionDetection-umbrella.h"; sourceTree = "<group>"; };
 		892AA8464759FE5FB9554B3ACD48419F /* Pods_StreamMotionDetection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamMotionDetection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,7 +215,7 @@
 		EEA1823E528C6FCDE1E6F7A3E05ACAE2 /* StreamMotionDetection */ = {
 			isa = PBXGroup;
 			children = (
-				764417BAD6D57553B2B9B91416AFFFA5 /* ReplaceMe.swift */,
+				764417BAD6D57553B2B9B91416AFFFA5 /* StreamMotionDetection.swift */,
 				B3E456D9D2CCEDFBAD743B2624CCF152 /* Pod */,
 				95D8D30F8893D9A15CDC3C4480E26AF6 /* Support Files */,
 			);
@@ -372,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC8A07D1532746040434344ACE5D89D /* ReplaceMe.swift in Sources */,
+				8AC8A07D1532746040434344ACE5D89D /* StreamMotionDetection.swift in Sources */,
 				C499A2028BCFD705193575ACD5D25307 /* StreamMotionDetection-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
