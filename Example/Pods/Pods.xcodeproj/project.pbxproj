@@ -8,6 +8,250 @@
 
 /* Begin PBXBuildFile section */
 		1607421E397BB445084741C63528A7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		22BC676727B2969A006596F0 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22BC676527B29695006596F0 /* OpenCVWrapper.mm */; };
+		22BC676927B29708006596F0 /* OpenCVWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC676827B29708006596F0 /* OpenCVWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22BC6A5227B3075F006596F0 /* Double3.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC695E27B30748006596F0 /* Double3.h */; };
+		22BC6A5327B3075F006596F0 /* dnn in Resources */ = {isa = PBXBuildFile; fileRef = 22BC695F27B30748006596F0 /* dnn */; };
+		22BC6A5427B3075F006596F0 /* photo.hpp 16-27-26-616.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696027B30749006596F0 /* photo.hpp 16-27-26-616.hpp */; };
+		22BC6A5527B3075F006596F0 /* StatModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696127B30749006596F0 /* StatModel.h */; };
+		22BC6A5627B3075F006596F0 /* Algorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696227B30749006596F0 /* Algorithm.h */; };
+		22BC6A5727B3075F006596F0 /* Range.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696327B30749006596F0 /* Range.h */; };
+		22BC6A5827B3075F006596F0 /* MergeExposures.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696427B30749006596F0 /* MergeExposures.h */; };
+		22BC6A5927B3075F006596F0 /* KeypointsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696527B30749006596F0 /* KeypointsModel.h */; };
+		22BC6A5A27B3075F006596F0 /* TextDetectionModel_DB.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696627B30749006596F0 /* TextDetectionModel_DB.h */; };
+		22BC6A5B27B3075F006596F0 /* ml in Resources */ = {isa = PBXBuildFile; fileRef = 22BC696727B30749006596F0 /* ml */; };
+		22BC6A5C27B3075F006596F0 /* flann in Resources */ = {isa = PBXBuildFile; fileRef = 22BC696827B30749006596F0 /* flann */; };
+		22BC6A5D27B3075F006596F0 /* Double2.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696927B30749006596F0 /* Double2.h */; };
+		22BC6A5E27B3075F006596F0 /* FaceDetectorYN.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696A27B30749006596F0 /* FaceDetectorYN.h */; };
+		22BC6A5F27B3075F006596F0 /* world.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696B27B30749006596F0 /* world.hpp */; };
+		22BC6A6027B3075F006596F0 /* QRCodeEncoderParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696C27B30749006596F0 /* QRCodeEncoderParams.h */; };
+		22BC6A6127B3075F006596F0 /* Point3i.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696D27B30749006596F0 /* Point3i.h */; };
+		22BC6A6227B3075F006596F0 /* GeneralizedHoughGuil.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696E27B30749006596F0 /* GeneralizedHoughGuil.h */; };
+		22BC6A6327B3075F006596F0 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC696F27B30749006596F0 /* Core.h */; };
+		22BC6A6427B3075F006596F0 /* TrackerDaSiamRPNParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697027B30749006596F0 /* TrackerDaSiamRPNParams.h */; };
+		22BC6A6527B3075F006596F0 /* MSER.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697127B30749006596F0 /* MSER.h */; };
+		22BC6A6627B3075F006596F0 /* BackgroundSubtractorKNN.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697227B3074A006596F0 /* BackgroundSubtractorKNN.h */; };
+		22BC6A6727B3075F006596F0 /* TonemapReinhard.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697327B3074A006596F0 /* TonemapReinhard.h */; };
+		22BC6A6827B3075F006596F0 /* MatOfPoint3f.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697427B3074A006596F0 /* MatOfPoint3f.h */; };
+		22BC6A6927B3075F006596F0 /* ANN_MLP.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697527B3074A006596F0 /* ANN_MLP.h */; };
+		22BC6A6A27B3075F006596F0 /* CascadeClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697627B3074A006596F0 /* CascadeClassifier.h */; };
+		22BC6A6B27B3075F006596F0 /* intrin.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697727B3074A006596F0 /* intrin.hpp */; };
+		22BC6A6C27B3075F006596F0 /* SegmentationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697827B3074A006596F0 /* SegmentationModel.h */; };
+		22BC6A6D27B3075F006596F0 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697927B3074A006596F0 /* Model.h */; };
+		22BC6A6E27B3075F006596F0 /* features2d.hpp 16-27-26-626.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697A27B3074A006596F0 /* features2d.hpp 16-27-26-626.hpp */; };
+		22BC6A6F27B3075F006596F0 /* AKAZE.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697B27B3074A006596F0 /* AKAZE.h */; };
+		22BC6A7027B3075F006596F0 /* VideoWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697C27B3074A006596F0 /* VideoWriter.h */; };
+		22BC6A7127B3075F006596F0 /* TrackerDaSiamRPN.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697D27B3074A006596F0 /* TrackerDaSiamRPN.h */; };
+		22BC6A7227B3075F006596F0 /* ByteVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697E27B3074A006596F0 /* ByteVector.h */; };
+		22BC6A7327B3075F006596F0 /* photo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC697F27B3074A006596F0 /* photo.hpp */; };
+		22BC6A7427B3075F006596F0 /* interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698027B3074A006596F0 /* interface.h */; };
+		22BC6A7527B3075F006596F0 /* Scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698127B3074A006596F0 /* Scalar.h */; };
+		22BC6A7627B3075F006596F0 /* Net.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698227B3074A006596F0 /* Net.h */; };
+		22BC6A7727B3075F006596F0 /* QRCodeEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698327B3074A006596F0 /* QRCodeEncoder.h */; };
+		22BC6A7827B3075F006596F0 /* SVM.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698427B3074A006596F0 /* SVM.h */; };
+		22BC6A7927B3075F006596F0 /* imgproc.hpp 16-27-27-576.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698527B3074A006596F0 /* imgproc.hpp 16-27-27-576.hpp */; };
+		22BC6A7A27B3075F006596F0 /* LineSegmentDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698627B3074A006596F0 /* LineSegmentDetector.h */; };
+		22BC6A7B27B3075F006596F0 /* FastFeatureDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698727B3074B006596F0 /* FastFeatureDetector.h */; };
+		22BC6A7C27B3075F006596F0 /* videoio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698827B3074B006596F0 /* videoio.hpp */; };
+		22BC6A7D27B3075F006596F0 /* objdetect.hpp 16-27-26-520.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698927B3074B006596F0 /* objdetect.hpp 16-27-26-520.hpp */; };
+		22BC6A7E27B3075F006596F0 /* intrin_sse.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698A27B3074B006596F0 /* intrin_sse.hpp */; };
+		22BC6A8027B30760006596F0 /* matx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698C27B30753006596F0 /* matx.hpp */; };
+		22BC6A8127B30760006596F0 /* CalibrateDebevec.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698D27B30753006596F0 /* CalibrateDebevec.h */; };
+		22BC6A8227B30760006596F0 /* KAZE.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698E27B30753006596F0 /* KAZE.h */; };
+		22BC6A8327B30760006596F0 /* Photo.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC698F27B30753006596F0 /* Photo.h */; };
+		22BC6A8427B30760006596F0 /* StereoBM.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699027B30753006596F0 /* StereoBM.h */; };
+		22BC6A8527B30760006596F0 /* Rect2i.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699127B30754006596F0 /* Rect2i.h */; };
+		22BC6A8627B30760006596F0 /* StereoSGBM.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699227B30754006596F0 /* StereoSGBM.h */; };
+		22BC6A8727B30760006596F0 /* traits.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699327B30754006596F0 /* traits.hpp */; };
+		22BC6A8827B30760006596F0 /* Objdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699427B30754006596F0 /* Objdetect.h */; };
+		22BC6A8927B30760006596F0 /* simd_utils.impl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699527B30754006596F0 /* simd_utils.impl.hpp */; };
+		22BC6A8A27B30760006596F0 /* segm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699627B30754006596F0 /* segm.hpp */; };
+		22BC6A8B27B30760006596F0 /* MatOfPoint2i.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699727B30754006596F0 /* MatOfPoint2i.h */; };
+		22BC6A8C27B30760006596F0 /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699827B30754006596F0 /* Video.h */; };
+		22BC6A8D27B30760006596F0 /* Videoio.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699927B30754006596F0 /* Videoio.h */; };
+		22BC6A8E27B30760006596F0 /* AffineFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699A27B30754006596F0 /* AffineFeature.h */; };
+		22BC6A8F27B30760006596F0 /* Feature2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699B27B30754006596F0 /* Feature2D.h */; };
+		22BC6A9027B30760006596F0 /* cvstd.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699C27B30754006596F0 /* cvstd.hpp */; };
+		22BC6A9127B30760006596F0 /* highgui in Resources */ = {isa = PBXBuildFile; fileRef = 22BC699D27B30754006596F0 /* highgui */; };
+		22BC6A9227B30760006596F0 /* TrainData.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699E27B30754006596F0 /* TrainData.h */; };
+		22BC6A9327B30760006596F0 /* Mat+Converters.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC699F27B30754006596F0 /* Mat+Converters.h */; };
+		22BC6A9427B30760006596F0 /* CalibrateRobertson.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A027B30754006596F0 /* CalibrateRobertson.h */; };
+		22BC6A9527B30760006596F0 /* opencv2-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A127B30754006596F0 /* opencv2-Swift.h */; };
+		22BC6A9627B30760006596F0 /* SimpleBlobDetectorParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A227B30754006596F0 /* SimpleBlobDetectorParams.h */; };
+		22BC6A9727B30760006596F0 /* TextDetectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A327B30754006596F0 /* TextDetectionModel.h */; };
+		22BC6A9827B30760006596F0 /* MatOfDMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A427B30754006596F0 /* MatOfDMatch.h */; };
+		22BC6A9927B30760006596F0 /* BOWTrainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A527B30755006596F0 /* BOWTrainer.h */; };
+		22BC6A9A27B30760006596F0 /* highgui.hpp 16-27-27-550.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A627B30755006596F0 /* highgui.hpp 16-27-27-550.hpp */; };
+		22BC6A9B27B30760006596F0 /* DTrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A727B30755006596F0 /* DTrees.h */; };
+		22BC6A9C27B30760006596F0 /* RTrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A827B30755006596F0 /* RTrees.h */; };
+		22BC6A9D27B30760006596F0 /* CirclesGridFinderParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69A927B30755006596F0 /* CirclesGridFinderParameters.h */; };
+		22BC6A9E27B30760006596F0 /* FarnebackOpticalFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69AA27B30755006596F0 /* FarnebackOpticalFlow.h */; };
+		22BC6A9F27B30760006596F0 /* TextDetectionModel_EAST.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69AB27B30755006596F0 /* TextDetectionModel_EAST.h */; };
+		22BC6AA027B30760006596F0 /* Size2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69AC27B30755006596F0 /* Size2d.h */; };
+		22BC6AA127B30760006596F0 /* RotatedRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69AD27B30755006596F0 /* RotatedRect.h */; };
+		22BC6AA227B30760006596F0 /* calib3d.hpp 16-27-26-601.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69AE27B30755006596F0 /* calib3d.hpp 16-27-26-601.hpp */; };
+		22BC6AA327B30760006596F0 /* objdetect in Resources */ = {isa = PBXBuildFile; fileRef = 22BC69AF27B30755006596F0 /* objdetect */; };
+		22BC6AA427B30760006596F0 /* MinMaxLocResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B027B30755006596F0 /* MinMaxLocResult.h */; };
+		22BC6AA527B30760006596F0 /* MatOfByte.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B127B30755006596F0 /* MatOfByte.h */; };
+		22BC6AA627B30760006596F0 /* BackgroundSubtractorMOG2.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B227B30755006596F0 /* BackgroundSubtractorMOG2.h */; };
+		22BC6AA727B30760006596F0 /* MatOfRect2i.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B327B30755006596F0 /* MatOfRect2i.h */; };
+		22BC6AA827B30760006596F0 /* ClassificationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B427B30755006596F0 /* ClassificationModel.h */; };
+		22BC6AA927B30760006596F0 /* Size2f.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B527B30755006596F0 /* Size2f.h */; };
+		22BC6AAA27B30760006596F0 /* TextRecognitionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B627B30755006596F0 /* TextRecognitionModel.h */; };
+		22BC6AAB27B30760006596F0 /* MatOfInt4.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B727B30755006596F0 /* MatOfInt4.h */; };
+		22BC6AAC27B30760006596F0 /* features2d.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B827B30756006596F0 /* features2d.hpp */; };
+		22BC6AAD27B30760006596F0 /* version.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69B927B30756006596F0 /* version.hpp */; };
+		22BC6AAE27B30760006596F0 /* core.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69BA27B30756006596F0 /* core.hpp */; };
+		22BC6AAF27B30760006596F0 /* SparsePyrLKOpticalFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69BB27B30756006596F0 /* SparsePyrLKOpticalFlow.h */; };
+		22BC6AB027B30760006596F0 /* opencv_modules.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69BC27B30756006596F0 /* opencv_modules.hpp */; };
+		22BC6AB127B30760006596F0 /* flann.hpp 16-27-26-589.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69BD27B30756006596F0 /* flann.hpp 16-27-26-589.hpp */; };
+		22BC6AB227B30760006596F0 /* Int4.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69BE27B30756006596F0 /* Int4.h */; };
+		22BC6AB327B30760006596F0 /* GFTTDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69BF27B30756006596F0 /* GFTTDetector.h */; };
+		22BC6AB427B30760006596F0 /* ml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C027B30756006596F0 /* ml.hpp */; };
+		22BC6AB527B30760006596F0 /* imgcodecs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C127B30756006596F0 /* imgcodecs.hpp */; };
+		22BC6AB627B30760006596F0 /* GeneralizedHoughBallard.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C227B30756006596F0 /* GeneralizedHoughBallard.h */; };
+		22BC6AB727B30760006596F0 /* stitching in Resources */ = {isa = PBXBuildFile; fileRef = 22BC69C327B30756006596F0 /* stitching */; };
+		22BC6AB827B30760006596F0 /* TrackerMILParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C427B30756006596F0 /* TrackerMILParams.h */; };
+		22BC6AB927B30760006596F0 /* KNearest.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C527B30756006596F0 /* KNearest.h */; };
+		22BC6ABB27B30760006596F0 /* MergeDebevec.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C727B30757006596F0 /* MergeDebevec.h */; };
+		22BC6ABC27B30760006596F0 /* CvCamera2.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C827B30757006596F0 /* CvCamera2.h */; };
+		22BC6ABD27B30760006596F0 /* DenseOpticalFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69C927B30757006596F0 /* DenseOpticalFlow.h */; };
+		22BC6ABE27B30760006596F0 /* UsacParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69CA27B30757006596F0 /* UsacParams.h */; };
+		22BC6ABF27B30760006596F0 /* TermCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69CB27B30757006596F0 /* TermCriteria.h */; };
+		22BC6AC027B30760006596F0 /* intrin_forward.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69CC27B30757006596F0 /* intrin_forward.hpp */; };
+		22BC6AC127B30760006596F0 /* intrin_wasm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69CD27B30757006596F0 /* intrin_wasm.hpp */; };
+		22BC6AC227B30760006596F0 /* stitching.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69CE27B30757006596F0 /* stitching.hpp */; };
+		22BC6AC327B30760006596F0 /* TonemapMantiuk.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69CF27B30757006596F0 /* TonemapMantiuk.h */; };
+		22BC6AC427B30760006596F0 /* DescriptorMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D027B30757006596F0 /* DescriptorMatcher.h */; };
+		22BC6AC527B30760006596F0 /* dnn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D127B30757006596F0 /* dnn.hpp */; };
+		22BC6AC627B30760006596F0 /* StereoMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D227B30757006596F0 /* StereoMatcher.h */; };
+		22BC6AC727B30760006596F0 /* videoio.hpp 16-27-27-525.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D327B30758006596F0 /* videoio.hpp 16-27-27-525.hpp */; };
+		22BC6AC827B30760006596F0 /* SIFT.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D427B30758006596F0 /* SIFT.h */; };
+		22BC6AC927B30760006596F0 /* intrin_avx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D527B30758006596F0 /* intrin_avx.hpp */; };
+		22BC6ACA27B30760006596F0 /* imgcodecs in Resources */ = {isa = PBXBuildFile; fileRef = 22BC69D627B30758006596F0 /* imgcodecs */; };
+		22BC6ACB27B30760006596F0 /* ml.hpp 16-27-27-580.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D727B30758006596F0 /* ml.hpp 16-27-27-580.hpp */; };
+		22BC6ACC27B30760006596F0 /* intrin_avx512.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D827B30758006596F0 /* intrin_avx512.hpp */; };
+		22BC6ACD27B30760006596F0 /* EM.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69D927B30758006596F0 /* EM.h */; };
+		22BC6ACE27B30760006596F0 /* Float4.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69DA27B30758006596F0 /* Float4.h */; };
+		22BC6ACF27B30760006596F0 /* intrin_rvv071.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69DB27B30758006596F0 /* intrin_rvv071.hpp */; };
+		22BC6AD027B30760006596F0 /* MatOfInt.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69DC27B30758006596F0 /* MatOfInt.h */; };
+		22BC6AD127B30760006596F0 /* MergeRobertson.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69DD27B30758006596F0 /* MergeRobertson.h */; };
+		22BC6AD227B30760006596F0 /* Moments.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69DE27B30758006596F0 /* Moments.h */; };
+		22BC6AD327B30760006596F0 /* TrackerGOTURNParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69DF27B30758006596F0 /* TrackerGOTURNParams.h */; };
+		22BC6AD427B30760006596F0 /* intrin_neon.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E027B30758006596F0 /* intrin_neon.hpp */; };
+		22BC6AD527B30760006596F0 /* MatOfRect2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E127B30758006596F0 /* MatOfRect2d.h */; };
+		22BC6AD627B30760006596F0 /* persistence.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E227B30758006596F0 /* persistence.hpp */; };
+		22BC6AD727B30760006596F0 /* BRISK.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E327B30758006596F0 /* BRISK.h */; };
+		22BC6AD827B30760006596F0 /* VariationalRefinement.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E427B30758006596F0 /* VariationalRefinement.h */; };
+		22BC6AD927B30760006596F0 /* Tracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E527B30758006596F0 /* Tracker.h */; };
+		22BC6ADA27B30760006596F0 /* dnn.hpp 16-27-27-538.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E627B30759006596F0 /* dnn.hpp 16-27-27-538.hpp */; };
+		22BC6ADB27B30760006596F0 /* Rect2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E727B30759006596F0 /* Rect2d.h */; };
+		22BC6ADC27B30760006596F0 /* KalmanFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E827B30759006596F0 /* KalmanFilter.h */; };
+		22BC6ADD27B30760006596F0 /* TrackerMIL.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69E927B30759006596F0 /* TrackerMIL.h */; };
+		22BC6ADE27B30760006596F0 /* Calib3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69EA27B30759006596F0 /* Calib3d.h */; };
+		22BC6ADF27B30760006596F0 /* MatOfFloat6.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69EB27B30759006596F0 /* MatOfFloat6.h */; };
+		22BC6AE027B30760006596F0 /* StreamMotionDetection-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69EC27B30759006596F0 /* StreamMotionDetection-Bridging-Header.h */; };
+		22BC6AE127B30760006596F0 /* video.hpp 16-27-26-573.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69ED27B30759006596F0 /* video.hpp 16-27-26-573.hpp */; };
+		22BC6AE227B30760006596F0 /* Boost.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69EE27B30759006596F0 /* Boost.h */; };
+		22BC6AE327B30760006596F0 /* gapi.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69EF27B30759006596F0 /* gapi.hpp */; };
+		22BC6AE427B30760006596F0 /* Converters.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F027B30759006596F0 /* Converters.h */; };
+		22BC6AE527B30760006596F0 /* Size2i.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F127B30759006596F0 /* Size2i.h */; };
+		22BC6AE627B30760006596F0 /* ORB.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F227B30759006596F0 /* ORB.h */; };
+		22BC6AE727B30760006596F0 /* AlignMTB.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F327B30759006596F0 /* AlignMTB.h */; };
+		22BC6AE827B30760006596F0 /* mat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F427B30759006596F0 /* mat.hpp */; };
+		22BC6AE927B30760006596F0 /* Point3f.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F527B30759006596F0 /* Point3f.h */; };
+		22BC6AEA27B30760006596F0 /* opencv_modules.hpp 16-27-27-542.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F627B30759006596F0 /* opencv_modules.hpp 16-27-27-542.hpp */; };
+		22BC6AEB27B30760006596F0 /* Point2i.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F727B30759006596F0 /* Point2i.h */; };
+		22BC6AEC27B30760006596F0 /* DetectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F827B3075A006596F0 /* DetectionModel.h */; };
+		22BC6AED27B30760006596F0 /* Tonemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69F927B3075A006596F0 /* Tonemap.h */; };
+		22BC6AEE27B30760006596F0 /* TickMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69FA27B3075A006596F0 /* TickMeter.h */; };
+		22BC6AEF27B30760006596F0 /* IntVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69FB27B3075A006596F0 /* IntVector.h */; };
+		22BC6AF027B30760006596F0 /* intrin_cpp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69FC27B3075A006596F0 /* intrin_cpp.hpp */; };
+		22BC6AF127B30760006596F0 /* Mat+QuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69FD27B3075A006596F0 /* Mat+QuickLook.h */; };
+		22BC6AF227B30760006596F0 /* intrin_msa.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69FE27B3075A006596F0 /* intrin_msa.hpp */; };
+		22BC6AF327B30760006596F0 /* FlannBasedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC69FF27B3075A006596F0 /* FlannBasedMatcher.h */; };
+		22BC6AF427B30760006596F0 /* Ml.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0027B3075A006596F0 /* Ml.h */; };
+		22BC6AF527B30760006596F0 /* BOWKMeansTrainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0127B3075A006596F0 /* BOWKMeansTrainer.h */; };
+		22BC6AF627B30760006596F0 /* DISOpticalFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0227B3075A006596F0 /* DISOpticalFlow.h */; };
+		22BC6AF727B30760006596F0 /* photo in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A0327B3075A006596F0 /* photo */; };
+		22BC6AF827B30760006596F0 /* Imgcodecs.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0427B3075A006596F0 /* Imgcodecs.h */; };
+		22BC6AF927B30760006596F0 /* VideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0527B3075A006596F0 /* VideoCapture.h */; };
+		22BC6AFA27B30760006596F0 /* gapi in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A0627B3075A006596F0 /* gapi */; };
+		22BC6AFB27B30760006596F0 /* MatOfRotatedRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0727B3075A006596F0 /* MatOfRotatedRect.h */; };
+		22BC6AFC27B30760006596F0 /* core.hpp 16-27-26-636.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0827B3075B006596F0 /* core.hpp 16-27-26-636.hpp */; };
+		22BC6AFD27B30760006596F0 /* Subdiv2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0927B3075B006596F0 /* Subdiv2D.h */; };
+		22BC6AFE27B30760006596F0 /* GeneralizedHough.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0A27B3075B006596F0 /* GeneralizedHough.h */; };
+		22BC6AFF27B30760006596F0 /* AlignExposures.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0B27B3075B006596F0 /* AlignExposures.h */; };
+		22BC6B0027B30760006596F0 /* BOWImgDescriptorExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0C27B3075B006596F0 /* BOWImgDescriptorExtractor.h */; };
+		22BC6B0127B30760006596F0 /* Point2f.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0D27B3075B006596F0 /* Point2f.h */; };
+		22BC6B0227B30760006596F0 /* FaceRecognizerSF.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0E27B3075B006596F0 /* FaceRecognizerSF.h */; };
+		22BC6B0327B30760006596F0 /* opencv2.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A0F27B3075B006596F0 /* opencv2.h */; };
+		22BC6B0427B30760006596F0 /* CVObjcUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1027B3075B006596F0 /* CVObjcUtil.h */; };
+		22BC6B0527B30760006596F0 /* LogisticRegression.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1127B3075B006596F0 /* LogisticRegression.h */; };
+		22BC6B0627B30760006596F0 /* imgcodecs.hpp 16-27-26-597.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1227B3075B006596F0 /* imgcodecs.hpp 16-27-26-597.hpp */; };
+		22BC6B0727B30760006596F0 /* flann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1327B3075B006596F0 /* flann.hpp */; };
+		22BC6B0827B30760006596F0 /* core in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A1427B3075C006596F0 /* core */; };
+		22BC6B0927B30760006596F0 /* intrin_vsx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1527B3075C006596F0 /* intrin_vsx.hpp */; };
+		22BC6B0A27B30760006596F0 /* intrin_sse_em.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1627B3075C006596F0 /* intrin_sse_em.hpp */; };
+		22BC6B0B27B30760006596F0 /* MatOfDouble.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1727B3075C006596F0 /* MatOfDouble.h */; };
+		22BC6B0C27B30760006596F0 /* highgui.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1827B3075C006596F0 /* highgui.hpp */; };
+		22BC6B0D27B30760006596F0 /* opencv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1927B3075C006596F0 /* opencv.hpp */; };
+		22BC6B0E27B30760006596F0 /* DMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1A27B3075C006596F0 /* DMatch.h */; };
+		22BC6B0F27B30760006596F0 /* Imgproc.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1B27B3075C006596F0 /* Imgproc.h */; };
+		22BC6B1027B30760006596F0 /* cvconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1C27B3075C006596F0 /* cvconfig.h */; };
+		22BC6B1127B30760006596F0 /* BFMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1D27B3075C006596F0 /* BFMatcher.h */; };
+		22BC6B1227B30760006596F0 /* CvType.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1E27B3075C006596F0 /* CvType.h */; };
+		22BC6B1327B30760006596F0 /* MatOfFloat4.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A1F27B3075C006596F0 /* MatOfFloat4.h */; };
+		22BC6B1427B30760006596F0 /* Point2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2027B3075C006596F0 /* Point2d.h */; };
+		22BC6B1527B30760006596F0 /* msa_macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2127B3075C006596F0 /* msa_macros.h */; };
+		22BC6B1627B30760006596F0 /* HOGDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2227B3075C006596F0 /* HOGDescriptor.h */; };
+		22BC6B1727B30760006596F0 /* video in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A2327B3075C006596F0 /* video */; };
+		22BC6B1827B30760006596F0 /* ArrayUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2427B3075D006596F0 /* ArrayUtil.h */; };
+		22BC6B1927B30760006596F0 /* TrackerGOTURN.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2527B3075D006596F0 /* TrackerGOTURN.h */; };
+		22BC6B1A27B30760006596F0 /* CalibrateCRF.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2627B3075D006596F0 /* CalibrateCRF.h */; };
+		22BC6B1B27B30760006596F0 /* DictValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2727B3075D006596F0 /* DictValue.h */; };
+		22BC6B1C27B30760006596F0 /* DoubleVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2827B3075D006596F0 /* DoubleVector.h */; };
+		22BC6B1D27B30760006596F0 /* IntelligentScissorsMB.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2927B3075D006596F0 /* IntelligentScissorsMB.h */; };
+		22BC6B1E27B30760006596F0 /* MergeMertens.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2A27B3075D006596F0 /* MergeMertens.h */; };
+		22BC6B1F27B30760006596F0 /* MatOfFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2B27B3075D006596F0 /* MatOfFloat.h */; };
+		22BC6B2027B30760006596F0 /* types.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2C27B3075D006596F0 /* types.hpp */; };
+		22BC6B2127B30760006596F0 /* ParamGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2D27B3075D006596F0 /* ParamGrid.h */; };
+		22BC6B2227B30760006596F0 /* CLAHE.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2E27B3075D006596F0 /* CLAHE.h */; };
+		22BC6B2327B30760006596F0 /* Mat.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A2F27B3075D006596F0 /* Mat.h */; };
+		22BC6B2427B30760006596F0 /* calib3d.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3027B3075D006596F0 /* calib3d.hpp */; };
+		22BC6B2527B30760006596F0 /* QRCodeDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3127B3075D006596F0 /* QRCodeDetector.h */; };
+		22BC6B2627B30760006596F0 /* BackgroundSubtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3227B3075D006596F0 /* BackgroundSubtractor.h */; };
+		22BC6B2727B30760006596F0 /* cvdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3327B3075D006596F0 /* cvdef.h */; };
+		22BC6B2827B30760006596F0 /* objdetect.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3427B3075D006596F0 /* objdetect.hpp */; };
+		22BC6B2927B30760006596F0 /* Features2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3527B3075E006596F0 /* Features2d.h */; };
+		22BC6B2A27B30760006596F0 /* videoio in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A3627B3075E006596F0 /* videoio */; };
+		22BC6B2B27B30760006596F0 /* BaseCascadeClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3727B3075E006596F0 /* BaseCascadeClassifier.h */; };
+		22BC6B2C27B30760006596F0 /* NormalBayesClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3827B3075E006596F0 /* NormalBayesClassifier.h */; };
+		22BC6B2D27B30760006596F0 /* imgproc in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A3927B3075E006596F0 /* imgproc */; };
+		22BC6B2E27B30760006596F0 /* calib3d in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A3A27B3075E006596F0 /* calib3d */; };
+		22BC6B2F27B30760006596F0 /* imgproc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3B27B3075E006596F0 /* imgproc.hpp */; };
+		22BC6B3027B30760006596F0 /* MatOfPoint3.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3C27B3075E006596F0 /* MatOfPoint3.h */; };
+		22BC6B3127B30760006596F0 /* features2d in Resources */ = {isa = PBXBuildFile; fileRef = 22BC6A3D27B3075E006596F0 /* features2d */; };
+		22BC6B3227B30760006596F0 /* KeyPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3E27B3075E006596F0 /* KeyPoint.h */; };
+		22BC6B3327B30760006596F0 /* Layer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A3F27B3075E006596F0 /* Layer.h */; };
+		22BC6B3427B30760006596F0 /* stitching.hpp 16-27-26-635.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4027B3075E006596F0 /* stitching.hpp 16-27-26-635.hpp */; };
+		22BC6B3527B30760006596F0 /* Float6.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4127B3075E006596F0 /* Float6.h */; };
+		22BC6B3627B30760006596F0 /* FloatVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4227B3075E006596F0 /* FloatVector.h */; };
+		22BC6B3727B30760006596F0 /* AgastFeatureDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4327B3075E006596F0 /* AgastFeatureDetector.h */; };
+		22BC6B3827B30760006596F0 /* intrin_rvv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4427B3075F006596F0 /* intrin_rvv.hpp */; };
+		22BC6B3927B30760006596F0 /* SparseOpticalFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4527B3075F006596F0 /* SparseOpticalFlow.h */; };
+		22BC6B3A27B30760006596F0 /* Rect2f.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4627B3075F006596F0 /* Rect2f.h */; };
+		22BC6B3B27B30760006596F0 /* Point3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4727B3075F006596F0 /* Point3d.h */; };
+		22BC6B3C27B30760006596F0 /* MatOfPoint2f.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4827B3075F006596F0 /* MatOfPoint2f.h */; };
+		22BC6B3D27B30760006596F0 /* TonemapDrago.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4927B3075F006596F0 /* TonemapDrago.h */; };
+		22BC6B3E27B30760006596F0 /* SimpleBlobDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4A27B3075F006596F0 /* SimpleBlobDetector.h */; };
+		22BC6B3F27B30760006596F0 /* video.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4B27B3075F006596F0 /* video.hpp */; };
+		22BC6B4027B30760006596F0 /* Dnn.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4C27B3075F006596F0 /* Dnn.h */; };
+		22BC6B4127B30760006596F0 /* MatOfKeyPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4D27B3075F006596F0 /* MatOfKeyPoint.h */; };
+		22BC6B4227B30760006596F0 /* opencv.hpp 16-27-26-632.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4E27B3075F006596F0 /* opencv.hpp 16-27-26-632.hpp */; };
+		22BC6B4327B30760006596F0 /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A4F27B3075F006596F0 /* base.hpp */; };
+		22BC6B4427B30760006596F0 /* hal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A5027B3075F006596F0 /* hal.hpp */; };
+		22BC6B4527B30760006596F0 /* SVMSGD.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC6A5127B3075F006596F0 /* SVMSGD.h */; };
 		248ED55B9D242A21ADB57CD5425F546C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		36FE99F2E4D056379397A7F4DDD566B6 /* Pods-StreamMotionDetection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B94C50E61C2E82114A342EDBFA9309 /* Pods-StreamMotionDetection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D09171583397A96CD5139F6E29047A8 /* Pods-StreamMotionDetection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D716BB95D13685ABFD547B35DE0C56 /* Pods-StreamMotionDetection_Tests-dummy.m */; };
@@ -40,6 +284,250 @@
 		016AF32401F63CDCE95FC42BB52F7C97 /* Pods-StreamMotionDetection_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StreamMotionDetection_Tests-Info.plist"; sourceTree = "<group>"; };
 		01DD5A655A4BDF49DEEEA78988887BAB /* StreamMotionDetection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamMotionDetection-prefix.pch"; sourceTree = "<group>"; };
 		1AED7318CB5C5E8E359AD35554AEF39A /* Pods-StreamMotionDetection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StreamMotionDetection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		22BC676527B29695006596F0 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		22BC676827B29708006596F0 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		22BC695E27B30748006596F0 /* Double3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Double3.h; sourceTree = "<group>"; };
+		22BC695F27B30748006596F0 /* dnn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dnn; sourceTree = "<group>"; };
+		22BC696027B30749006596F0 /* photo.hpp 16-27-26-616.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "photo.hpp 16-27-26-616.hpp"; sourceTree = "<group>"; };
+		22BC696127B30749006596F0 /* StatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatModel.h; sourceTree = "<group>"; };
+		22BC696227B30749006596F0 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		22BC696327B30749006596F0 /* Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Range.h; sourceTree = "<group>"; };
+		22BC696427B30749006596F0 /* MergeExposures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeExposures.h; sourceTree = "<group>"; };
+		22BC696527B30749006596F0 /* KeypointsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypointsModel.h; sourceTree = "<group>"; };
+		22BC696627B30749006596F0 /* TextDetectionModel_DB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDetectionModel_DB.h; sourceTree = "<group>"; };
+		22BC696727B30749006596F0 /* ml */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ml; sourceTree = "<group>"; };
+		22BC696827B30749006596F0 /* flann */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flann; sourceTree = "<group>"; };
+		22BC696927B30749006596F0 /* Double2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Double2.h; sourceTree = "<group>"; };
+		22BC696A27B30749006596F0 /* FaceDetectorYN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectorYN.h; sourceTree = "<group>"; };
+		22BC696B27B30749006596F0 /* world.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = world.hpp; sourceTree = "<group>"; };
+		22BC696C27B30749006596F0 /* QRCodeEncoderParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeEncoderParams.h; sourceTree = "<group>"; };
+		22BC696D27B30749006596F0 /* Point3i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3i.h; sourceTree = "<group>"; };
+		22BC696E27B30749006596F0 /* GeneralizedHoughGuil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralizedHoughGuil.h; sourceTree = "<group>"; };
+		22BC696F27B30749006596F0 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		22BC697027B30749006596F0 /* TrackerDaSiamRPNParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerDaSiamRPNParams.h; sourceTree = "<group>"; };
+		22BC697127B30749006596F0 /* MSER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSER.h; sourceTree = "<group>"; };
+		22BC697227B3074A006596F0 /* BackgroundSubtractorKNN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundSubtractorKNN.h; sourceTree = "<group>"; };
+		22BC697327B3074A006596F0 /* TonemapReinhard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonemapReinhard.h; sourceTree = "<group>"; };
+		22BC697427B3074A006596F0 /* MatOfPoint3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfPoint3f.h; sourceTree = "<group>"; };
+		22BC697527B3074A006596F0 /* ANN_MLP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANN_MLP.h; sourceTree = "<group>"; };
+		22BC697627B3074A006596F0 /* CascadeClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CascadeClassifier.h; sourceTree = "<group>"; };
+		22BC697727B3074A006596F0 /* intrin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin.hpp; sourceTree = "<group>"; };
+		22BC697827B3074A006596F0 /* SegmentationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentationModel.h; sourceTree = "<group>"; };
+		22BC697927B3074A006596F0 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		22BC697A27B3074A006596F0 /* features2d.hpp 16-27-26-626.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "features2d.hpp 16-27-26-626.hpp"; sourceTree = "<group>"; };
+		22BC697B27B3074A006596F0 /* AKAZE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAZE.h; sourceTree = "<group>"; };
+		22BC697C27B3074A006596F0 /* VideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWriter.h; sourceTree = "<group>"; };
+		22BC697D27B3074A006596F0 /* TrackerDaSiamRPN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerDaSiamRPN.h; sourceTree = "<group>"; };
+		22BC697E27B3074A006596F0 /* ByteVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteVector.h; sourceTree = "<group>"; };
+		22BC697F27B3074A006596F0 /* photo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = photo.hpp; sourceTree = "<group>"; };
+		22BC698027B3074A006596F0 /* interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interface.h; sourceTree = "<group>"; };
+		22BC698127B3074A006596F0 /* Scalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scalar.h; sourceTree = "<group>"; };
+		22BC698227B3074A006596F0 /* Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
+		22BC698327B3074A006596F0 /* QRCodeEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeEncoder.h; sourceTree = "<group>"; };
+		22BC698427B3074A006596F0 /* SVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVM.h; sourceTree = "<group>"; };
+		22BC698527B3074A006596F0 /* imgproc.hpp 16-27-27-576.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "imgproc.hpp 16-27-27-576.hpp"; sourceTree = "<group>"; };
+		22BC698627B3074A006596F0 /* LineSegmentDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSegmentDetector.h; sourceTree = "<group>"; };
+		22BC698727B3074B006596F0 /* FastFeatureDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastFeatureDetector.h; sourceTree = "<group>"; };
+		22BC698827B3074B006596F0 /* videoio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = videoio.hpp; sourceTree = "<group>"; };
+		22BC698927B3074B006596F0 /* objdetect.hpp 16-27-26-520.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "objdetect.hpp 16-27-26-520.hpp"; sourceTree = "<group>"; };
+		22BC698A27B3074B006596F0 /* intrin_sse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_sse.hpp; sourceTree = "<group>"; };
+		22BC698C27B30753006596F0 /* matx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = matx.hpp; sourceTree = "<group>"; };
+		22BC698D27B30753006596F0 /* CalibrateDebevec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateDebevec.h; sourceTree = "<group>"; };
+		22BC698E27B30753006596F0 /* KAZE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAZE.h; sourceTree = "<group>"; };
+		22BC698F27B30753006596F0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		22BC699027B30753006596F0 /* StereoBM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoBM.h; sourceTree = "<group>"; };
+		22BC699127B30754006596F0 /* Rect2i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect2i.h; sourceTree = "<group>"; };
+		22BC699227B30754006596F0 /* StereoSGBM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoSGBM.h; sourceTree = "<group>"; };
+		22BC699327B30754006596F0 /* traits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = traits.hpp; sourceTree = "<group>"; };
+		22BC699427B30754006596F0 /* Objdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objdetect.h; sourceTree = "<group>"; };
+		22BC699527B30754006596F0 /* simd_utils.impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = simd_utils.impl.hpp; sourceTree = "<group>"; };
+		22BC699627B30754006596F0 /* segm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = segm.hpp; sourceTree = "<group>"; };
+		22BC699727B30754006596F0 /* MatOfPoint2i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfPoint2i.h; sourceTree = "<group>"; };
+		22BC699827B30754006596F0 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		22BC699927B30754006596F0 /* Videoio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Videoio.h; sourceTree = "<group>"; };
+		22BC699A27B30754006596F0 /* AffineFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineFeature.h; sourceTree = "<group>"; };
+		22BC699B27B30754006596F0 /* Feature2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feature2D.h; sourceTree = "<group>"; };
+		22BC699C27B30754006596F0 /* cvstd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cvstd.hpp; sourceTree = "<group>"; };
+		22BC699D27B30754006596F0 /* highgui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = highgui; sourceTree = "<group>"; };
+		22BC699E27B30754006596F0 /* TrainData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainData.h; sourceTree = "<group>"; };
+		22BC699F27B30754006596F0 /* Mat+Converters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mat+Converters.h"; sourceTree = "<group>"; };
+		22BC69A027B30754006596F0 /* CalibrateRobertson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateRobertson.h; sourceTree = "<group>"; };
+		22BC69A127B30754006596F0 /* opencv2-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "opencv2-Swift.h"; sourceTree = "<group>"; };
+		22BC69A227B30754006596F0 /* SimpleBlobDetectorParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBlobDetectorParams.h; sourceTree = "<group>"; };
+		22BC69A327B30754006596F0 /* TextDetectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDetectionModel.h; sourceTree = "<group>"; };
+		22BC69A427B30754006596F0 /* MatOfDMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfDMatch.h; sourceTree = "<group>"; };
+		22BC69A527B30755006596F0 /* BOWTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWTrainer.h; sourceTree = "<group>"; };
+		22BC69A627B30755006596F0 /* highgui.hpp 16-27-27-550.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "highgui.hpp 16-27-27-550.hpp"; sourceTree = "<group>"; };
+		22BC69A727B30755006596F0 /* DTrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTrees.h; sourceTree = "<group>"; };
+		22BC69A827B30755006596F0 /* RTrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTrees.h; sourceTree = "<group>"; };
+		22BC69A927B30755006596F0 /* CirclesGridFinderParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclesGridFinderParameters.h; sourceTree = "<group>"; };
+		22BC69AA27B30755006596F0 /* FarnebackOpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarnebackOpticalFlow.h; sourceTree = "<group>"; };
+		22BC69AB27B30755006596F0 /* TextDetectionModel_EAST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDetectionModel_EAST.h; sourceTree = "<group>"; };
+		22BC69AC27B30755006596F0 /* Size2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Size2d.h; sourceTree = "<group>"; };
+		22BC69AD27B30755006596F0 /* RotatedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatedRect.h; sourceTree = "<group>"; };
+		22BC69AE27B30755006596F0 /* calib3d.hpp 16-27-26-601.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "calib3d.hpp 16-27-26-601.hpp"; sourceTree = "<group>"; };
+		22BC69AF27B30755006596F0 /* objdetect */ = {isa = PBXFileReference; lastKnownFileType = folder; path = objdetect; sourceTree = "<group>"; };
+		22BC69B027B30755006596F0 /* MinMaxLocResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinMaxLocResult.h; sourceTree = "<group>"; };
+		22BC69B127B30755006596F0 /* MatOfByte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfByte.h; sourceTree = "<group>"; };
+		22BC69B227B30755006596F0 /* BackgroundSubtractorMOG2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundSubtractorMOG2.h; sourceTree = "<group>"; };
+		22BC69B327B30755006596F0 /* MatOfRect2i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfRect2i.h; sourceTree = "<group>"; };
+		22BC69B427B30755006596F0 /* ClassificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassificationModel.h; sourceTree = "<group>"; };
+		22BC69B527B30755006596F0 /* Size2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Size2f.h; sourceTree = "<group>"; };
+		22BC69B627B30755006596F0 /* TextRecognitionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextRecognitionModel.h; sourceTree = "<group>"; };
+		22BC69B727B30755006596F0 /* MatOfInt4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfInt4.h; sourceTree = "<group>"; };
+		22BC69B827B30756006596F0 /* features2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = features2d.hpp; sourceTree = "<group>"; };
+		22BC69B927B30756006596F0 /* version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = version.hpp; sourceTree = "<group>"; };
+		22BC69BA27B30756006596F0 /* core.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = core.hpp; sourceTree = "<group>"; };
+		22BC69BB27B30756006596F0 /* SparsePyrLKOpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparsePyrLKOpticalFlow.h; sourceTree = "<group>"; };
+		22BC69BC27B30756006596F0 /* opencv_modules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = opencv_modules.hpp; sourceTree = "<group>"; };
+		22BC69BD27B30756006596F0 /* flann.hpp 16-27-26-589.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "flann.hpp 16-27-26-589.hpp"; sourceTree = "<group>"; };
+		22BC69BE27B30756006596F0 /* Int4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Int4.h; sourceTree = "<group>"; };
+		22BC69BF27B30756006596F0 /* GFTTDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFTTDetector.h; sourceTree = "<group>"; };
+		22BC69C027B30756006596F0 /* ml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ml.hpp; sourceTree = "<group>"; };
+		22BC69C127B30756006596F0 /* imgcodecs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imgcodecs.hpp; sourceTree = "<group>"; };
+		22BC69C227B30756006596F0 /* GeneralizedHoughBallard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralizedHoughBallard.h; sourceTree = "<group>"; };
+		22BC69C327B30756006596F0 /* stitching */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stitching; sourceTree = "<group>"; };
+		22BC69C427B30756006596F0 /* TrackerMILParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerMILParams.h; sourceTree = "<group>"; };
+		22BC69C527B30756006596F0 /* KNearest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNearest.h; sourceTree = "<group>"; };
+		22BC69C727B30757006596F0 /* MergeDebevec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeDebevec.h; sourceTree = "<group>"; };
+		22BC69C827B30757006596F0 /* CvCamera2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvCamera2.h; sourceTree = "<group>"; };
+		22BC69C927B30757006596F0 /* DenseOpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DenseOpticalFlow.h; sourceTree = "<group>"; };
+		22BC69CA27B30757006596F0 /* UsacParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsacParams.h; sourceTree = "<group>"; };
+		22BC69CB27B30757006596F0 /* TermCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermCriteria.h; sourceTree = "<group>"; };
+		22BC69CC27B30757006596F0 /* intrin_forward.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_forward.hpp; sourceTree = "<group>"; };
+		22BC69CD27B30757006596F0 /* intrin_wasm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_wasm.hpp; sourceTree = "<group>"; };
+		22BC69CE27B30757006596F0 /* stitching.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stitching.hpp; sourceTree = "<group>"; };
+		22BC69CF27B30757006596F0 /* TonemapMantiuk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonemapMantiuk.h; sourceTree = "<group>"; };
+		22BC69D027B30757006596F0 /* DescriptorMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptorMatcher.h; sourceTree = "<group>"; };
+		22BC69D127B30757006596F0 /* dnn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dnn.hpp; sourceTree = "<group>"; };
+		22BC69D227B30757006596F0 /* StereoMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoMatcher.h; sourceTree = "<group>"; };
+		22BC69D327B30758006596F0 /* videoio.hpp 16-27-27-525.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "videoio.hpp 16-27-27-525.hpp"; sourceTree = "<group>"; };
+		22BC69D427B30758006596F0 /* SIFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIFT.h; sourceTree = "<group>"; };
+		22BC69D527B30758006596F0 /* intrin_avx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_avx.hpp; sourceTree = "<group>"; };
+		22BC69D627B30758006596F0 /* imgcodecs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgcodecs; sourceTree = "<group>"; };
+		22BC69D727B30758006596F0 /* ml.hpp 16-27-27-580.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "ml.hpp 16-27-27-580.hpp"; sourceTree = "<group>"; };
+		22BC69D827B30758006596F0 /* intrin_avx512.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_avx512.hpp; sourceTree = "<group>"; };
+		22BC69D927B30758006596F0 /* EM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EM.h; sourceTree = "<group>"; };
+		22BC69DA27B30758006596F0 /* Float4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Float4.h; sourceTree = "<group>"; };
+		22BC69DB27B30758006596F0 /* intrin_rvv071.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_rvv071.hpp; sourceTree = "<group>"; };
+		22BC69DC27B30758006596F0 /* MatOfInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfInt.h; sourceTree = "<group>"; };
+		22BC69DD27B30758006596F0 /* MergeRobertson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeRobertson.h; sourceTree = "<group>"; };
+		22BC69DE27B30758006596F0 /* Moments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moments.h; sourceTree = "<group>"; };
+		22BC69DF27B30758006596F0 /* TrackerGOTURNParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerGOTURNParams.h; sourceTree = "<group>"; };
+		22BC69E027B30758006596F0 /* intrin_neon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_neon.hpp; sourceTree = "<group>"; };
+		22BC69E127B30758006596F0 /* MatOfRect2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfRect2d.h; sourceTree = "<group>"; };
+		22BC69E227B30758006596F0 /* persistence.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = persistence.hpp; sourceTree = "<group>"; };
+		22BC69E327B30758006596F0 /* BRISK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRISK.h; sourceTree = "<group>"; };
+		22BC69E427B30758006596F0 /* VariationalRefinement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariationalRefinement.h; sourceTree = "<group>"; };
+		22BC69E527B30758006596F0 /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		22BC69E627B30759006596F0 /* dnn.hpp 16-27-27-538.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "dnn.hpp 16-27-27-538.hpp"; sourceTree = "<group>"; };
+		22BC69E727B30759006596F0 /* Rect2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect2d.h; sourceTree = "<group>"; };
+		22BC69E827B30759006596F0 /* KalmanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KalmanFilter.h; sourceTree = "<group>"; };
+		22BC69E927B30759006596F0 /* TrackerMIL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerMIL.h; sourceTree = "<group>"; };
+		22BC69EA27B30759006596F0 /* Calib3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calib3d.h; sourceTree = "<group>"; };
+		22BC69EB27B30759006596F0 /* MatOfFloat6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfFloat6.h; sourceTree = "<group>"; };
+		22BC69EC27B30759006596F0 /* StreamMotionDetection-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StreamMotionDetection-Bridging-Header.h"; sourceTree = "<group>"; };
+		22BC69ED27B30759006596F0 /* video.hpp 16-27-26-573.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "video.hpp 16-27-26-573.hpp"; sourceTree = "<group>"; };
+		22BC69EE27B30759006596F0 /* Boost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boost.h; sourceTree = "<group>"; };
+		22BC69EF27B30759006596F0 /* gapi.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gapi.hpp; sourceTree = "<group>"; };
+		22BC69F027B30759006596F0 /* Converters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converters.h; sourceTree = "<group>"; };
+		22BC69F127B30759006596F0 /* Size2i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Size2i.h; sourceTree = "<group>"; };
+		22BC69F227B30759006596F0 /* ORB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORB.h; sourceTree = "<group>"; };
+		22BC69F327B30759006596F0 /* AlignMTB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignMTB.h; sourceTree = "<group>"; };
+		22BC69F427B30759006596F0 /* mat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mat.hpp; sourceTree = "<group>"; };
+		22BC69F527B30759006596F0 /* Point3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3f.h; sourceTree = "<group>"; };
+		22BC69F627B30759006596F0 /* opencv_modules.hpp 16-27-27-542.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "opencv_modules.hpp 16-27-27-542.hpp"; sourceTree = "<group>"; };
+		22BC69F727B30759006596F0 /* Point2i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2i.h; sourceTree = "<group>"; };
+		22BC69F827B3075A006596F0 /* DetectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectionModel.h; sourceTree = "<group>"; };
+		22BC69F927B3075A006596F0 /* Tonemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tonemap.h; sourceTree = "<group>"; };
+		22BC69FA27B3075A006596F0 /* TickMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickMeter.h; sourceTree = "<group>"; };
+		22BC69FB27B3075A006596F0 /* IntVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntVector.h; sourceTree = "<group>"; };
+		22BC69FC27B3075A006596F0 /* intrin_cpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_cpp.hpp; sourceTree = "<group>"; };
+		22BC69FD27B3075A006596F0 /* Mat+QuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mat+QuickLook.h"; sourceTree = "<group>"; };
+		22BC69FE27B3075A006596F0 /* intrin_msa.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_msa.hpp; sourceTree = "<group>"; };
+		22BC69FF27B3075A006596F0 /* FlannBasedMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlannBasedMatcher.h; sourceTree = "<group>"; };
+		22BC6A0027B3075A006596F0 /* Ml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ml.h; sourceTree = "<group>"; };
+		22BC6A0127B3075A006596F0 /* BOWKMeansTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWKMeansTrainer.h; sourceTree = "<group>"; };
+		22BC6A0227B3075A006596F0 /* DISOpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DISOpticalFlow.h; sourceTree = "<group>"; };
+		22BC6A0327B3075A006596F0 /* photo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = photo; sourceTree = "<group>"; };
+		22BC6A0427B3075A006596F0 /* Imgcodecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imgcodecs.h; sourceTree = "<group>"; };
+		22BC6A0527B3075A006596F0 /* VideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCapture.h; sourceTree = "<group>"; };
+		22BC6A0627B3075A006596F0 /* gapi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gapi; sourceTree = "<group>"; };
+		22BC6A0727B3075A006596F0 /* MatOfRotatedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfRotatedRect.h; sourceTree = "<group>"; };
+		22BC6A0827B3075B006596F0 /* core.hpp 16-27-26-636.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "core.hpp 16-27-26-636.hpp"; sourceTree = "<group>"; };
+		22BC6A0927B3075B006596F0 /* Subdiv2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subdiv2D.h; sourceTree = "<group>"; };
+		22BC6A0A27B3075B006596F0 /* GeneralizedHough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralizedHough.h; sourceTree = "<group>"; };
+		22BC6A0B27B3075B006596F0 /* AlignExposures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignExposures.h; sourceTree = "<group>"; };
+		22BC6A0C27B3075B006596F0 /* BOWImgDescriptorExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOWImgDescriptorExtractor.h; sourceTree = "<group>"; };
+		22BC6A0D27B3075B006596F0 /* Point2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2f.h; sourceTree = "<group>"; };
+		22BC6A0E27B3075B006596F0 /* FaceRecognizerSF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceRecognizerSF.h; sourceTree = "<group>"; };
+		22BC6A0F27B3075B006596F0 /* opencv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opencv2.h; sourceTree = "<group>"; };
+		22BC6A1027B3075B006596F0 /* CVObjcUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVObjcUtil.h; sourceTree = "<group>"; };
+		22BC6A1127B3075B006596F0 /* LogisticRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogisticRegression.h; sourceTree = "<group>"; };
+		22BC6A1227B3075B006596F0 /* imgcodecs.hpp 16-27-26-597.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "imgcodecs.hpp 16-27-26-597.hpp"; sourceTree = "<group>"; };
+		22BC6A1327B3075B006596F0 /* flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flann.hpp; sourceTree = "<group>"; };
+		22BC6A1427B3075C006596F0 /* core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = core; sourceTree = "<group>"; };
+		22BC6A1527B3075C006596F0 /* intrin_vsx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_vsx.hpp; sourceTree = "<group>"; };
+		22BC6A1627B3075C006596F0 /* intrin_sse_em.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_sse_em.hpp; sourceTree = "<group>"; };
+		22BC6A1727B3075C006596F0 /* MatOfDouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfDouble.h; sourceTree = "<group>"; };
+		22BC6A1827B3075C006596F0 /* highgui.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = highgui.hpp; sourceTree = "<group>"; };
+		22BC6A1927B3075C006596F0 /* opencv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = opencv.hpp; sourceTree = "<group>"; };
+		22BC6A1A27B3075C006596F0 /* DMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMatch.h; sourceTree = "<group>"; };
+		22BC6A1B27B3075C006596F0 /* Imgproc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imgproc.h; sourceTree = "<group>"; };
+		22BC6A1C27B3075C006596F0 /* cvconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvconfig.h; sourceTree = "<group>"; };
+		22BC6A1D27B3075C006596F0 /* BFMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFMatcher.h; sourceTree = "<group>"; };
+		22BC6A1E27B3075C006596F0 /* CvType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvType.h; sourceTree = "<group>"; };
+		22BC6A1F27B3075C006596F0 /* MatOfFloat4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfFloat4.h; sourceTree = "<group>"; };
+		22BC6A2027B3075C006596F0 /* Point2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2d.h; sourceTree = "<group>"; };
+		22BC6A2127B3075C006596F0 /* msa_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msa_macros.h; sourceTree = "<group>"; };
+		22BC6A2227B3075C006596F0 /* HOGDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOGDescriptor.h; sourceTree = "<group>"; };
+		22BC6A2327B3075C006596F0 /* video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = video; sourceTree = "<group>"; };
+		22BC6A2427B3075D006596F0 /* ArrayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayUtil.h; sourceTree = "<group>"; };
+		22BC6A2527B3075D006596F0 /* TrackerGOTURN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerGOTURN.h; sourceTree = "<group>"; };
+		22BC6A2627B3075D006596F0 /* CalibrateCRF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateCRF.h; sourceTree = "<group>"; };
+		22BC6A2727B3075D006596F0 /* DictValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictValue.h; sourceTree = "<group>"; };
+		22BC6A2827B3075D006596F0 /* DoubleVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleVector.h; sourceTree = "<group>"; };
+		22BC6A2927B3075D006596F0 /* IntelligentScissorsMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentScissorsMB.h; sourceTree = "<group>"; };
+		22BC6A2A27B3075D006596F0 /* MergeMertens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeMertens.h; sourceTree = "<group>"; };
+		22BC6A2B27B3075D006596F0 /* MatOfFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfFloat.h; sourceTree = "<group>"; };
+		22BC6A2C27B3075D006596F0 /* types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = types.hpp; sourceTree = "<group>"; };
+		22BC6A2D27B3075D006596F0 /* ParamGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamGrid.h; sourceTree = "<group>"; };
+		22BC6A2E27B3075D006596F0 /* CLAHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAHE.h; sourceTree = "<group>"; };
+		22BC6A2F27B3075D006596F0 /* Mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mat.h; sourceTree = "<group>"; };
+		22BC6A3027B3075D006596F0 /* calib3d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = calib3d.hpp; sourceTree = "<group>"; };
+		22BC6A3127B3075D006596F0 /* QRCodeDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeDetector.h; sourceTree = "<group>"; };
+		22BC6A3227B3075D006596F0 /* BackgroundSubtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundSubtractor.h; sourceTree = "<group>"; };
+		22BC6A3327B3075D006596F0 /* cvdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvdef.h; sourceTree = "<group>"; };
+		22BC6A3427B3075D006596F0 /* objdetect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = objdetect.hpp; sourceTree = "<group>"; };
+		22BC6A3527B3075E006596F0 /* Features2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Features2d.h; sourceTree = "<group>"; };
+		22BC6A3627B3075E006596F0 /* videoio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videoio; sourceTree = "<group>"; };
+		22BC6A3727B3075E006596F0 /* BaseCascadeClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCascadeClassifier.h; sourceTree = "<group>"; };
+		22BC6A3827B3075E006596F0 /* NormalBayesClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalBayesClassifier.h; sourceTree = "<group>"; };
+		22BC6A3927B3075E006596F0 /* imgproc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgproc; sourceTree = "<group>"; };
+		22BC6A3A27B3075E006596F0 /* calib3d */ = {isa = PBXFileReference; lastKnownFileType = folder; path = calib3d; sourceTree = "<group>"; };
+		22BC6A3B27B3075E006596F0 /* imgproc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imgproc.hpp; sourceTree = "<group>"; };
+		22BC6A3C27B3075E006596F0 /* MatOfPoint3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfPoint3.h; sourceTree = "<group>"; };
+		22BC6A3D27B3075E006596F0 /* features2d */ = {isa = PBXFileReference; lastKnownFileType = folder; path = features2d; sourceTree = "<group>"; };
+		22BC6A3E27B3075E006596F0 /* KeyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPoint.h; sourceTree = "<group>"; };
+		22BC6A3F27B3075E006596F0 /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		22BC6A4027B3075E006596F0 /* stitching.hpp 16-27-26-635.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "stitching.hpp 16-27-26-635.hpp"; sourceTree = "<group>"; };
+		22BC6A4127B3075E006596F0 /* Float6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Float6.h; sourceTree = "<group>"; };
+		22BC6A4227B3075E006596F0 /* FloatVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatVector.h; sourceTree = "<group>"; };
+		22BC6A4327B3075E006596F0 /* AgastFeatureDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgastFeatureDetector.h; sourceTree = "<group>"; };
+		22BC6A4427B3075F006596F0 /* intrin_rvv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = intrin_rvv.hpp; sourceTree = "<group>"; };
+		22BC6A4527B3075F006596F0 /* SparseOpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparseOpticalFlow.h; sourceTree = "<group>"; };
+		22BC6A4627B3075F006596F0 /* Rect2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect2f.h; sourceTree = "<group>"; };
+		22BC6A4727B3075F006596F0 /* Point3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3d.h; sourceTree = "<group>"; };
+		22BC6A4827B3075F006596F0 /* MatOfPoint2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfPoint2f.h; sourceTree = "<group>"; };
+		22BC6A4927B3075F006596F0 /* TonemapDrago.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonemapDrago.h; sourceTree = "<group>"; };
+		22BC6A4A27B3075F006596F0 /* SimpleBlobDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBlobDetector.h; sourceTree = "<group>"; };
+		22BC6A4B27B3075F006596F0 /* video.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = video.hpp; sourceTree = "<group>"; };
+		22BC6A4C27B3075F006596F0 /* Dnn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dnn.h; sourceTree = "<group>"; };
+		22BC6A4D27B3075F006596F0 /* MatOfKeyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatOfKeyPoint.h; sourceTree = "<group>"; };
+		22BC6A4E27B3075F006596F0 /* opencv.hpp 16-27-26-632.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "opencv.hpp 16-27-26-632.hpp"; sourceTree = "<group>"; };
+		22BC6A4F27B3075F006596F0 /* base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base.hpp; sourceTree = "<group>"; };
+		22BC6A5027B3075F006596F0 /* hal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hal.hpp; sourceTree = "<group>"; };
+		22BC6A5127B3075F006596F0 /* SVMSGD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMSGD.h; sourceTree = "<group>"; };
 		285EE6FBEB69319F2081D809A4A50F1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3E3FC75107688427722023FC69B6EF8B /* Pods-StreamMotionDetection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StreamMotionDetection_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		40B94C50E61C2E82114A342EDBFA9309 /* Pods-StreamMotionDetection_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StreamMotionDetection_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -100,6 +588,272 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22BC676427B2964C006596F0 /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				22BC676527B29695006596F0 /* OpenCVWrapper.mm */,
+				22BC676827B29708006596F0 /* OpenCVWrapper.h */,
+			);
+			path = ObjectiveC;
+			sourceTree = "<group>";
+		};
+		22BC695C27B30731006596F0 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				22BC695D27B30737006596F0 /* opencv2 */,
+			);
+			path = "C++";
+			sourceTree = "<group>";
+		};
+		22BC695D27B30737006596F0 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				22BC699A27B30754006596F0 /* AffineFeature.h */,
+				22BC6A4327B3075E006596F0 /* AgastFeatureDetector.h */,
+				22BC697B27B3074A006596F0 /* AKAZE.h */,
+				22BC696227B30749006596F0 /* Algorithm.h */,
+				22BC6A0B27B3075B006596F0 /* AlignExposures.h */,
+				22BC69F327B30759006596F0 /* AlignMTB.h */,
+				22BC697527B3074A006596F0 /* ANN_MLP.h */,
+				22BC6A2427B3075D006596F0 /* ArrayUtil.h */,
+				22BC6A3227B3075D006596F0 /* BackgroundSubtractor.h */,
+				22BC697227B3074A006596F0 /* BackgroundSubtractorKNN.h */,
+				22BC69B227B30755006596F0 /* BackgroundSubtractorMOG2.h */,
+				22BC6A4F27B3075F006596F0 /* base.hpp */,
+				22BC6A3727B3075E006596F0 /* BaseCascadeClassifier.h */,
+				22BC6A1D27B3075C006596F0 /* BFMatcher.h */,
+				22BC69EE27B30759006596F0 /* Boost.h */,
+				22BC6A0C27B3075B006596F0 /* BOWImgDescriptorExtractor.h */,
+				22BC6A0127B3075A006596F0 /* BOWKMeansTrainer.h */,
+				22BC69A527B30755006596F0 /* BOWTrainer.h */,
+				22BC69E327B30758006596F0 /* BRISK.h */,
+				22BC697E27B3074A006596F0 /* ByteVector.h */,
+				22BC6A3A27B3075E006596F0 /* calib3d */,
+				22BC69EA27B30759006596F0 /* Calib3d.h */,
+				22BC6A3027B3075D006596F0 /* calib3d.hpp */,
+				22BC69AE27B30755006596F0 /* calib3d.hpp 16-27-26-601.hpp */,
+				22BC6A2627B3075D006596F0 /* CalibrateCRF.h */,
+				22BC698D27B30753006596F0 /* CalibrateDebevec.h */,
+				22BC69A027B30754006596F0 /* CalibrateRobertson.h */,
+				22BC697627B3074A006596F0 /* CascadeClassifier.h */,
+				22BC69A927B30755006596F0 /* CirclesGridFinderParameters.h */,
+				22BC6A2E27B3075D006596F0 /* CLAHE.h */,
+				22BC69B427B30755006596F0 /* ClassificationModel.h */,
+				22BC69F027B30759006596F0 /* Converters.h */,
+				22BC6A1427B3075C006596F0 /* core */,
+				22BC696F27B30749006596F0 /* Core.h */,
+				22BC69BA27B30756006596F0 /* core.hpp */,
+				22BC6A0827B3075B006596F0 /* core.hpp 16-27-26-636.hpp */,
+				22BC69C827B30757006596F0 /* CvCamera2.h */,
+				22BC6A1C27B3075C006596F0 /* cvconfig.h */,
+				22BC6A3327B3075D006596F0 /* cvdef.h */,
+				22BC6A1027B3075B006596F0 /* CVObjcUtil.h */,
+				22BC699C27B30754006596F0 /* cvstd.hpp */,
+				22BC6A1E27B3075C006596F0 /* CvType.h */,
+				22BC69C927B30757006596F0 /* DenseOpticalFlow.h */,
+				22BC69D027B30757006596F0 /* DescriptorMatcher.h */,
+				22BC69F827B3075A006596F0 /* DetectionModel.h */,
+				22BC6A2727B3075D006596F0 /* DictValue.h */,
+				22BC6A0227B3075A006596F0 /* DISOpticalFlow.h */,
+				22BC6A1A27B3075C006596F0 /* DMatch.h */,
+				22BC695F27B30748006596F0 /* dnn */,
+				22BC6A4C27B3075F006596F0 /* Dnn.h */,
+				22BC69D127B30757006596F0 /* dnn.hpp */,
+				22BC69E627B30759006596F0 /* dnn.hpp 16-27-27-538.hpp */,
+				22BC696927B30749006596F0 /* Double2.h */,
+				22BC695E27B30748006596F0 /* Double3.h */,
+				22BC6A2827B3075D006596F0 /* DoubleVector.h */,
+				22BC69A727B30755006596F0 /* DTrees.h */,
+				22BC69D927B30758006596F0 /* EM.h */,
+				22BC696A27B30749006596F0 /* FaceDetectorYN.h */,
+				22BC6A0E27B3075B006596F0 /* FaceRecognizerSF.h */,
+				22BC69AA27B30755006596F0 /* FarnebackOpticalFlow.h */,
+				22BC698727B3074B006596F0 /* FastFeatureDetector.h */,
+				22BC699B27B30754006596F0 /* Feature2D.h */,
+				22BC6A3D27B3075E006596F0 /* features2d */,
+				22BC6A3527B3075E006596F0 /* Features2d.h */,
+				22BC69B827B30756006596F0 /* features2d.hpp */,
+				22BC697A27B3074A006596F0 /* features2d.hpp 16-27-26-626.hpp */,
+				22BC696827B30749006596F0 /* flann */,
+				22BC6A1327B3075B006596F0 /* flann.hpp */,
+				22BC69BD27B30756006596F0 /* flann.hpp 16-27-26-589.hpp */,
+				22BC69FF27B3075A006596F0 /* FlannBasedMatcher.h */,
+				22BC69DA27B30758006596F0 /* Float4.h */,
+				22BC6A4127B3075E006596F0 /* Float6.h */,
+				22BC6A4227B3075E006596F0 /* FloatVector.h */,
+				22BC6A0627B3075A006596F0 /* gapi */,
+				22BC69EF27B30759006596F0 /* gapi.hpp */,
+				22BC6A0A27B3075B006596F0 /* GeneralizedHough.h */,
+				22BC69C227B30756006596F0 /* GeneralizedHoughBallard.h */,
+				22BC696E27B30749006596F0 /* GeneralizedHoughGuil.h */,
+				22BC69BF27B30756006596F0 /* GFTTDetector.h */,
+				22BC6A5027B3075F006596F0 /* hal.hpp */,
+				22BC699D27B30754006596F0 /* highgui */,
+				22BC6A1827B3075C006596F0 /* highgui.hpp */,
+				22BC69A627B30755006596F0 /* highgui.hpp 16-27-27-550.hpp */,
+				22BC6A2227B3075C006596F0 /* HOGDescriptor.h */,
+				22BC69D627B30758006596F0 /* imgcodecs */,
+				22BC6A0427B3075A006596F0 /* Imgcodecs.h */,
+				22BC69C127B30756006596F0 /* imgcodecs.hpp */,
+				22BC6A1227B3075B006596F0 /* imgcodecs.hpp 16-27-26-597.hpp */,
+				22BC6A3927B3075E006596F0 /* imgproc */,
+				22BC6A1B27B3075C006596F0 /* Imgproc.h */,
+				22BC6A3B27B3075E006596F0 /* imgproc.hpp */,
+				22BC698527B3074A006596F0 /* imgproc.hpp 16-27-27-576.hpp */,
+				22BC69BE27B30756006596F0 /* Int4.h */,
+				22BC6A2927B3075D006596F0 /* IntelligentScissorsMB.h */,
+				22BC698027B3074A006596F0 /* interface.h */,
+				22BC69D527B30758006596F0 /* intrin_avx.hpp */,
+				22BC69D827B30758006596F0 /* intrin_avx512.hpp */,
+				22BC69FC27B3075A006596F0 /* intrin_cpp.hpp */,
+				22BC69CC27B30757006596F0 /* intrin_forward.hpp */,
+				22BC69FE27B3075A006596F0 /* intrin_msa.hpp */,
+				22BC69E027B30758006596F0 /* intrin_neon.hpp */,
+				22BC6A4427B3075F006596F0 /* intrin_rvv.hpp */,
+				22BC69DB27B30758006596F0 /* intrin_rvv071.hpp */,
+				22BC6A1627B3075C006596F0 /* intrin_sse_em.hpp */,
+				22BC698A27B3074B006596F0 /* intrin_sse.hpp */,
+				22BC6A1527B3075C006596F0 /* intrin_vsx.hpp */,
+				22BC69CD27B30757006596F0 /* intrin_wasm.hpp */,
+				22BC697727B3074A006596F0 /* intrin.hpp */,
+				22BC69FB27B3075A006596F0 /* IntVector.h */,
+				22BC69E827B30759006596F0 /* KalmanFilter.h */,
+				22BC698E27B30753006596F0 /* KAZE.h */,
+				22BC6A3E27B3075E006596F0 /* KeyPoint.h */,
+				22BC696527B30749006596F0 /* KeypointsModel.h */,
+				22BC69C527B30756006596F0 /* KNearest.h */,
+				22BC6A3F27B3075E006596F0 /* Layer.h */,
+				22BC698627B3074A006596F0 /* LineSegmentDetector.h */,
+				22BC6A1127B3075B006596F0 /* LogisticRegression.h */,
+				22BC6A2F27B3075D006596F0 /* Mat.h */,
+				22BC69F427B30759006596F0 /* mat.hpp */,
+				22BC699F27B30754006596F0 /* Mat+Converters.h */,
+				22BC69FD27B3075A006596F0 /* Mat+QuickLook.h */,
+				22BC69B127B30755006596F0 /* MatOfByte.h */,
+				22BC69A427B30754006596F0 /* MatOfDMatch.h */,
+				22BC6A1727B3075C006596F0 /* MatOfDouble.h */,
+				22BC6A2B27B3075D006596F0 /* MatOfFloat.h */,
+				22BC6A1F27B3075C006596F0 /* MatOfFloat4.h */,
+				22BC69EB27B30759006596F0 /* MatOfFloat6.h */,
+				22BC69DC27B30758006596F0 /* MatOfInt.h */,
+				22BC69B727B30755006596F0 /* MatOfInt4.h */,
+				22BC6A4D27B3075F006596F0 /* MatOfKeyPoint.h */,
+				22BC6A4827B3075F006596F0 /* MatOfPoint2f.h */,
+				22BC699727B30754006596F0 /* MatOfPoint2i.h */,
+				22BC6A3C27B3075E006596F0 /* MatOfPoint3.h */,
+				22BC697427B3074A006596F0 /* MatOfPoint3f.h */,
+				22BC69E127B30758006596F0 /* MatOfRect2d.h */,
+				22BC69B327B30755006596F0 /* MatOfRect2i.h */,
+				22BC6A0727B3075A006596F0 /* MatOfRotatedRect.h */,
+				22BC698C27B30753006596F0 /* matx.hpp */,
+				22BC69C727B30757006596F0 /* MergeDebevec.h */,
+				22BC696427B30749006596F0 /* MergeExposures.h */,
+				22BC6A2A27B3075D006596F0 /* MergeMertens.h */,
+				22BC69DD27B30758006596F0 /* MergeRobertson.h */,
+				22BC69B027B30755006596F0 /* MinMaxLocResult.h */,
+				22BC696727B30749006596F0 /* ml */,
+				22BC6A0027B3075A006596F0 /* Ml.h */,
+				22BC69C027B30756006596F0 /* ml.hpp */,
+				22BC69D727B30758006596F0 /* ml.hpp 16-27-27-580.hpp */,
+				22BC697927B3074A006596F0 /* Model.h */,
+				22BC69DE27B30758006596F0 /* Moments.h */,
+				22BC6A2127B3075C006596F0 /* msa_macros.h */,
+				22BC697127B30749006596F0 /* MSER.h */,
+				22BC698227B3074A006596F0 /* Net.h */,
+				22BC6A3827B3075E006596F0 /* NormalBayesClassifier.h */,
+				22BC69AF27B30755006596F0 /* objdetect */,
+				22BC699427B30754006596F0 /* Objdetect.h */,
+				22BC6A3427B3075D006596F0 /* objdetect.hpp */,
+				22BC698927B3074B006596F0 /* objdetect.hpp 16-27-26-520.hpp */,
+				22BC69BC27B30756006596F0 /* opencv_modules.hpp */,
+				22BC69F627B30759006596F0 /* opencv_modules.hpp 16-27-27-542.hpp */,
+				22BC6A1927B3075C006596F0 /* opencv.hpp */,
+				22BC6A4E27B3075F006596F0 /* opencv.hpp 16-27-26-632.hpp */,
+				22BC69A127B30754006596F0 /* opencv2-Swift.h */,
+				22BC6A0F27B3075B006596F0 /* opencv2.h */,
+				22BC69F227B30759006596F0 /* ORB.h */,
+				22BC6A2D27B3075D006596F0 /* ParamGrid.h */,
+				22BC69E227B30758006596F0 /* persistence.hpp */,
+				22BC6A0327B3075A006596F0 /* photo */,
+				22BC698F27B30753006596F0 /* Photo.h */,
+				22BC697F27B3074A006596F0 /* photo.hpp */,
+				22BC696027B30749006596F0 /* photo.hpp 16-27-26-616.hpp */,
+				22BC6A2027B3075C006596F0 /* Point2d.h */,
+				22BC6A0D27B3075B006596F0 /* Point2f.h */,
+				22BC69F727B30759006596F0 /* Point2i.h */,
+				22BC6A4727B3075F006596F0 /* Point3d.h */,
+				22BC69F527B30759006596F0 /* Point3f.h */,
+				22BC696D27B30749006596F0 /* Point3i.h */,
+				22BC6A3127B3075D006596F0 /* QRCodeDetector.h */,
+				22BC698327B3074A006596F0 /* QRCodeEncoder.h */,
+				22BC696C27B30749006596F0 /* QRCodeEncoderParams.h */,
+				22BC696327B30749006596F0 /* Range.h */,
+				22BC69E727B30759006596F0 /* Rect2d.h */,
+				22BC6A4627B3075F006596F0 /* Rect2f.h */,
+				22BC699127B30754006596F0 /* Rect2i.h */,
+				22BC69AD27B30755006596F0 /* RotatedRect.h */,
+				22BC69A827B30755006596F0 /* RTrees.h */,
+				22BC698127B3074A006596F0 /* Scalar.h */,
+				22BC699627B30754006596F0 /* segm.hpp */,
+				22BC697827B3074A006596F0 /* SegmentationModel.h */,
+				22BC69D427B30758006596F0 /* SIFT.h */,
+				22BC699527B30754006596F0 /* simd_utils.impl.hpp */,
+				22BC6A4A27B3075F006596F0 /* SimpleBlobDetector.h */,
+				22BC69A227B30754006596F0 /* SimpleBlobDetectorParams.h */,
+				22BC69AC27B30755006596F0 /* Size2d.h */,
+				22BC69B527B30755006596F0 /* Size2f.h */,
+				22BC69F127B30759006596F0 /* Size2i.h */,
+				22BC6A4527B3075F006596F0 /* SparseOpticalFlow.h */,
+				22BC69BB27B30756006596F0 /* SparsePyrLKOpticalFlow.h */,
+				22BC696127B30749006596F0 /* StatModel.h */,
+				22BC699027B30753006596F0 /* StereoBM.h */,
+				22BC69D227B30757006596F0 /* StereoMatcher.h */,
+				22BC699227B30754006596F0 /* StereoSGBM.h */,
+				22BC69C327B30756006596F0 /* stitching */,
+				22BC69CE27B30757006596F0 /* stitching.hpp */,
+				22BC6A4027B3075E006596F0 /* stitching.hpp 16-27-26-635.hpp */,
+				22BC69EC27B30759006596F0 /* StreamMotionDetection-Bridging-Header.h */,
+				22BC6A0927B3075B006596F0 /* Subdiv2D.h */,
+				22BC698427B3074A006596F0 /* SVM.h */,
+				22BC6A5127B3075F006596F0 /* SVMSGD.h */,
+				22BC69CB27B30757006596F0 /* TermCriteria.h */,
+				22BC696627B30749006596F0 /* TextDetectionModel_DB.h */,
+				22BC69AB27B30755006596F0 /* TextDetectionModel_EAST.h */,
+				22BC69A327B30754006596F0 /* TextDetectionModel.h */,
+				22BC69B627B30755006596F0 /* TextRecognitionModel.h */,
+				22BC69FA27B3075A006596F0 /* TickMeter.h */,
+				22BC69F927B3075A006596F0 /* Tonemap.h */,
+				22BC6A4927B3075F006596F0 /* TonemapDrago.h */,
+				22BC69CF27B30757006596F0 /* TonemapMantiuk.h */,
+				22BC697327B3074A006596F0 /* TonemapReinhard.h */,
+				22BC69E527B30758006596F0 /* Tracker.h */,
+				22BC697D27B3074A006596F0 /* TrackerDaSiamRPN.h */,
+				22BC697027B30749006596F0 /* TrackerDaSiamRPNParams.h */,
+				22BC6A2527B3075D006596F0 /* TrackerGOTURN.h */,
+				22BC69DF27B30758006596F0 /* TrackerGOTURNParams.h */,
+				22BC69E927B30759006596F0 /* TrackerMIL.h */,
+				22BC69C427B30756006596F0 /* TrackerMILParams.h */,
+				22BC699E27B30754006596F0 /* TrainData.h */,
+				22BC699327B30754006596F0 /* traits.hpp */,
+				22BC6A2C27B3075D006596F0 /* types.hpp */,
+				22BC69CA27B30757006596F0 /* UsacParams.h */,
+				22BC69E427B30758006596F0 /* VariationalRefinement.h */,
+				22BC69B927B30756006596F0 /* version.hpp */,
+				22BC6A2327B3075C006596F0 /* video */,
+				22BC699827B30754006596F0 /* Video.h */,
+				22BC6A4B27B3075F006596F0 /* video.hpp */,
+				22BC69ED27B30759006596F0 /* video.hpp 16-27-26-573.hpp */,
+				22BC6A0527B3075A006596F0 /* VideoCapture.h */,
+				22BC6A3627B3075E006596F0 /* videoio */,
+				22BC699927B30754006596F0 /* Videoio.h */,
+				22BC698827B3074B006596F0 /* videoio.hpp */,
+				22BC69D327B30758006596F0 /* videoio.hpp 16-27-27-525.hpp */,
+				22BC697C27B3074A006596F0 /* VideoWriter.h */,
+				22BC696B27B30749006596F0 /* world.hpp */,
+			);
+			path = opencv2;
+			sourceTree = "<group>";
+		};
 		238015E371E72E39FF890C32E4AC103E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +969,8 @@
 		EEA1823E528C6FCDE1E6F7A3E05ACAE2 /* StreamMotionDetection */ = {
 			isa = PBXGroup;
 			children = (
+				22BC695C27B30731006596F0 /* C++ */,
+				22BC676427B2964C006596F0 /* ObjectiveC */,
 				764417BAD6D57553B2B9B91416AFFFA5 /* StreamMotionDetection.swift */,
 				B3E456D9D2CCEDFBAD743B2624CCF152 /* Pod */,
 				95D8D30F8893D9A15CDC3C4480E26AF6 /* Support Files */,
@@ -246,7 +1002,235 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BC6A5527B3075F006596F0 /* StatModel.h in Headers */,
+				22BC6A6F27B3075F006596F0 /* AKAZE.h in Headers */,
+				22BC6B4127B30760006596F0 /* MatOfKeyPoint.h in Headers */,
+				22BC6A7C27B3075F006596F0 /* videoio.hpp in Headers */,
+				22BC6A7127B3075F006596F0 /* TrackerDaSiamRPN.h in Headers */,
+				22BC6AF627B30760006596F0 /* DISOpticalFlow.h in Headers */,
+				22BC6B3C27B30760006596F0 /* MatOfPoint2f.h in Headers */,
+				22BC6A6E27B3075F006596F0 /* features2d.hpp 16-27-26-626.hpp in Headers */,
+				22BC6A8627B30760006596F0 /* StereoSGBM.h in Headers */,
+				22BC6AD927B30760006596F0 /* Tracker.h in Headers */,
+				22BC6AF427B30760006596F0 /* Ml.h in Headers */,
+				22BC6AD627B30760006596F0 /* persistence.hpp in Headers */,
+				22BC6A8D27B30760006596F0 /* Videoio.h in Headers */,
+				22BC6AC427B30760006596F0 /* DescriptorMatcher.h in Headers */,
+				22BC6B3B27B30760006596F0 /* Point3d.h in Headers */,
+				22BC6AA727B30760006596F0 /* MatOfRect2i.h in Headers */,
+				22BC6A7927B3075F006596F0 /* imgproc.hpp 16-27-27-576.hpp in Headers */,
+				22BC6B1627B30760006596F0 /* HOGDescriptor.h in Headers */,
+				22BC6B2827B30760006596F0 /* objdetect.hpp in Headers */,
+				22BC6ADF27B30760006596F0 /* MatOfFloat6.h in Headers */,
+				22BC6B4227B30760006596F0 /* opencv.hpp 16-27-26-632.hpp in Headers */,
+				22BC6AF927B30760006596F0 /* VideoCapture.h in Headers */,
+				22BC6A9B27B30760006596F0 /* DTrees.h in Headers */,
+				22BC6A5927B3075F006596F0 /* KeypointsModel.h in Headers */,
+				22BC6B2327B30760006596F0 /* Mat.h in Headers */,
+				22BC6ADC27B30760006596F0 /* KalmanFilter.h in Headers */,
+				22BC6A8B27B30760006596F0 /* MatOfPoint2i.h in Headers */,
+				22BC6AD327B30760006596F0 /* TrackerGOTURNParams.h in Headers */,
+				22BC6B1527B30760006596F0 /* msa_macros.h in Headers */,
+				22BC6AB027B30760006596F0 /* opencv_modules.hpp in Headers */,
+				22BC6AB327B30760006596F0 /* GFTTDetector.h in Headers */,
+				22BC6ACD27B30760006596F0 /* EM.h in Headers */,
+				22BC6A8C27B30760006596F0 /* Video.h in Headers */,
+				22BC6AA527B30760006596F0 /* MatOfByte.h in Headers */,
+				22BC6B1E27B30760006596F0 /* MergeMertens.h in Headers */,
+				22BC6A6227B3075F006596F0 /* GeneralizedHoughGuil.h in Headers */,
+				22BC6B1F27B30760006596F0 /* MatOfFloat.h in Headers */,
+				22BC6AD427B30760006596F0 /* intrin_neon.hpp in Headers */,
+				22BC6A9E27B30760006596F0 /* FarnebackOpticalFlow.h in Headers */,
+				22BC6AF327B30760006596F0 /* FlannBasedMatcher.h in Headers */,
+				22BC6AA227B30760006596F0 /* calib3d.hpp 16-27-26-601.hpp in Headers */,
+				22BC6A9D27B30760006596F0 /* CirclesGridFinderParameters.h in Headers */,
+				22BC6AB627B30760006596F0 /* GeneralizedHoughBallard.h in Headers */,
+				22BC6AA627B30760006596F0 /* BackgroundSubtractorMOG2.h in Headers */,
+				22BC6A7627B3075F006596F0 /* Net.h in Headers */,
+				22BC6B1127B30760006596F0 /* BFMatcher.h in Headers */,
+				22BC6A5427B3075F006596F0 /* photo.hpp 16-27-26-616.hpp in Headers */,
+				22BC6A8227B30760006596F0 /* KAZE.h in Headers */,
+				22BC6AEF27B30760006596F0 /* IntVector.h in Headers */,
+				22BC6A9027B30760006596F0 /* cvstd.hpp in Headers */,
+				22BC6AEC27B30760006596F0 /* DetectionModel.h in Headers */,
+				22BC6AA127B30760006596F0 /* RotatedRect.h in Headers */,
+				22BC6B0027B30760006596F0 /* BOWImgDescriptorExtractor.h in Headers */,
+				22BC6A6C27B3075F006596F0 /* SegmentationModel.h in Headers */,
+				22BC6B3327B30760006596F0 /* Layer.h in Headers */,
+				22BC6B4527B30760006596F0 /* SVMSGD.h in Headers */,
+				22BC6B2027B30760006596F0 /* types.hpp in Headers */,
+				22BC6AAB27B30760006596F0 /* MatOfInt4.h in Headers */,
+				22BC6ADB27B30760006596F0 /* Rect2d.h in Headers */,
+				22BC6AE927B30760006596F0 /* Point3f.h in Headers */,
+				22BC6AC927B30760006596F0 /* intrin_avx.hpp in Headers */,
+				22BC6B1C27B30760006596F0 /* DoubleVector.h in Headers */,
+				22BC6A6827B3075F006596F0 /* MatOfPoint3f.h in Headers */,
+				22BC6ADE27B30760006596F0 /* Calib3d.h in Headers */,
+				22BC6B2127B30760006596F0 /* ParamGrid.h in Headers */,
+				22BC6A7227B3075F006596F0 /* ByteVector.h in Headers */,
+				22BC6ACF27B30760006596F0 /* intrin_rvv071.hpp in Headers */,
+				22BC6B1827B30760006596F0 /* ArrayUtil.h in Headers */,
+				22BC6B1027B30760006596F0 /* cvconfig.h in Headers */,
+				22BC6A7D27B3075F006596F0 /* objdetect.hpp 16-27-26-520.hpp in Headers */,
+				22BC6AB127B30760006596F0 /* flann.hpp 16-27-26-589.hpp in Headers */,
+				22BC6A8F27B30760006596F0 /* Feature2D.h in Headers */,
+				22BC6B3027B30760006596F0 /* MatOfPoint3.h in Headers */,
+				22BC6ABB27B30760006596F0 /* MergeDebevec.h in Headers */,
+				22BC6ABC27B30760006596F0 /* CvCamera2.h in Headers */,
+				22BC6A5727B3075F006596F0 /* Range.h in Headers */,
 				8C63BE1CDA06F29EF82F5783AAF069B0 /* StreamMotionDetection-umbrella.h in Headers */,
+				22BC6A6027B3075F006596F0 /* QRCodeEncoderParams.h in Headers */,
+				22BC6AE527B30760006596F0 /* Size2i.h in Headers */,
+				22BC6A7027B3075F006596F0 /* VideoWriter.h in Headers */,
+				22BC6AD527B30760006596F0 /* MatOfRect2d.h in Headers */,
+				22BC6B3427B30760006596F0 /* stitching.hpp 16-27-26-635.hpp in Headers */,
+				22BC6AA927B30760006596F0 /* Size2f.h in Headers */,
+				22BC6A7327B3075F006596F0 /* photo.hpp in Headers */,
+				22BC6A9327B30760006596F0 /* Mat+Converters.h in Headers */,
+				22BC6B3627B30760006596F0 /* FloatVector.h in Headers */,
+				22BC6AD127B30760006596F0 /* MergeRobertson.h in Headers */,
+				22BC6AD827B30760006596F0 /* VariationalRefinement.h in Headers */,
+				22BC6A5A27B3075F006596F0 /* TextDetectionModel_DB.h in Headers */,
+				22BC6A8527B30760006596F0 /* Rect2i.h in Headers */,
+				22BC6AE227B30760006596F0 /* Boost.h in Headers */,
+				22BC6ABD27B30760006596F0 /* DenseOpticalFlow.h in Headers */,
+				22BC6B0C27B30760006596F0 /* highgui.hpp in Headers */,
+				22BC6B0427B30760006596F0 /* CVObjcUtil.h in Headers */,
+				22BC6AE827B30760006596F0 /* mat.hpp in Headers */,
+				22BC6B0227B30760006596F0 /* FaceRecognizerSF.h in Headers */,
+				22BC6A5827B3075F006596F0 /* MergeExposures.h in Headers */,
+				22BC6A7727B3075F006596F0 /* QRCodeEncoder.h in Headers */,
+				22BC6A9827B30760006596F0 /* MatOfDMatch.h in Headers */,
+				22BC6B1427B30760006596F0 /* Point2d.h in Headers */,
+				22BC6ADA27B30760006596F0 /* dnn.hpp 16-27-27-538.hpp in Headers */,
+				22BC6ACE27B30760006596F0 /* Float4.h in Headers */,
+				22BC6AC827B30760006596F0 /* SIFT.h in Headers */,
+				22BC6A6A27B3075F006596F0 /* CascadeClassifier.h in Headers */,
+				22BC6B1327B30760006596F0 /* MatOfFloat4.h in Headers */,
+				22BC6A7427B3075F006596F0 /* interface.h in Headers */,
+				22BC6B3827B30760006596F0 /* intrin_rvv.hpp in Headers */,
+				22BC6AA427B30760006596F0 /* MinMaxLocResult.h in Headers */,
+				22BC6B3227B30760006596F0 /* KeyPoint.h in Headers */,
+				22BC6B2F27B30760006596F0 /* imgproc.hpp in Headers */,
+				22BC6AFB27B30760006596F0 /* MatOfRotatedRect.h in Headers */,
+				22BC6AED27B30760006596F0 /* Tonemap.h in Headers */,
+				22BC6AE327B30760006596F0 /* gapi.hpp in Headers */,
+				22BC6A9C27B30760006596F0 /* RTrees.h in Headers */,
+				22BC6AB527B30760006596F0 /* imgcodecs.hpp in Headers */,
+				22BC6A8727B30760006596F0 /* traits.hpp in Headers */,
+				22BC6AE727B30760006596F0 /* AlignMTB.h in Headers */,
+				22BC6AB427B30760006596F0 /* ml.hpp in Headers */,
+				22BC6A6927B3075F006596F0 /* ANN_MLP.h in Headers */,
+				22BC6A6427B3075F006596F0 /* TrackerDaSiamRPNParams.h in Headers */,
+				22BC6A7A27B3075F006596F0 /* LineSegmentDetector.h in Headers */,
+				22BC6A7B27B3075F006596F0 /* FastFeatureDetector.h in Headers */,
+				22BC6B2227B30760006596F0 /* CLAHE.h in Headers */,
+				22BC6AFF27B30760006596F0 /* AlignExposures.h in Headers */,
+				22BC6B0127B30760006596F0 /* Point2f.h in Headers */,
+				22BC6ADD27B30760006596F0 /* TrackerMIL.h in Headers */,
+				22BC6A8E27B30760006596F0 /* AffineFeature.h in Headers */,
+				22BC6B3527B30760006596F0 /* Float6.h in Headers */,
+				22BC6B0327B30760006596F0 /* opencv2.h in Headers */,
+				22BC6A9927B30760006596F0 /* BOWTrainer.h in Headers */,
+				22BC6B2B27B30760006596F0 /* BaseCascadeClassifier.h in Headers */,
+				22BC6A9627B30760006596F0 /* SimpleBlobDetectorParams.h in Headers */,
+				22BC6ABF27B30760006596F0 /* TermCriteria.h in Headers */,
+				22BC6B0727B30760006596F0 /* flann.hpp in Headers */,
+				22BC676927B29708006596F0 /* OpenCVWrapper.h in Headers */,
+				22BC6A6127B3075F006596F0 /* Point3i.h in Headers */,
+				22BC6AF527B30760006596F0 /* BOWKMeansTrainer.h in Headers */,
+				22BC6AC627B30760006596F0 /* StereoMatcher.h in Headers */,
+				22BC6A5627B3075F006596F0 /* Algorithm.h in Headers */,
+				22BC6A9527B30760006596F0 /* opencv2-Swift.h in Headers */,
+				22BC6B2627B30760006596F0 /* BackgroundSubtractor.h in Headers */,
+				22BC6A6527B3075F006596F0 /* MSER.h in Headers */,
+				22BC6AF227B30760006596F0 /* intrin_msa.hpp in Headers */,
+				22BC6A5F27B3075F006596F0 /* world.hpp in Headers */,
+				22BC6A8027B30760006596F0 /* matx.hpp in Headers */,
+				22BC6B2527B30760006596F0 /* QRCodeDetector.h in Headers */,
+				22BC6AC327B30760006596F0 /* TonemapMantiuk.h in Headers */,
+				22BC6B3D27B30760006596F0 /* TonemapDrago.h in Headers */,
+				22BC6B0527B30760006596F0 /* LogisticRegression.h in Headers */,
+				22BC6A8927B30760006596F0 /* simd_utils.impl.hpp in Headers */,
+				22BC6B3A27B30760006596F0 /* Rect2f.h in Headers */,
+				22BC6AAF27B30760006596F0 /* SparsePyrLKOpticalFlow.h in Headers */,
+				22BC6A9727B30760006596F0 /* TextDetectionModel.h in Headers */,
+				22BC6AA027B30760006596F0 /* Size2d.h in Headers */,
+				22BC6A9227B30760006596F0 /* TrainData.h in Headers */,
+				22BC6B1D27B30760006596F0 /* IntelligentScissorsMB.h in Headers */,
+				22BC6A9427B30760006596F0 /* CalibrateRobertson.h in Headers */,
+				22BC6AA827B30760006596F0 /* ClassificationModel.h in Headers */,
+				22BC6A5227B3075F006596F0 /* Double3.h in Headers */,
+				22BC6A7E27B3075F006596F0 /* intrin_sse.hpp in Headers */,
+				22BC6B3F27B30760006596F0 /* video.hpp in Headers */,
+				22BC6AFE27B30760006596F0 /* GeneralizedHough.h in Headers */,
+				22BC6A9A27B30760006596F0 /* highgui.hpp 16-27-27-550.hpp in Headers */,
+				22BC6A6B27B3075F006596F0 /* intrin.hpp in Headers */,
+				22BC6AB227B30760006596F0 /* Int4.h in Headers */,
+				22BC6A8827B30760006596F0 /* Objdetect.h in Headers */,
+				22BC6B2C27B30760006596F0 /* NormalBayesClassifier.h in Headers */,
+				22BC6AEB27B30760006596F0 /* Point2i.h in Headers */,
+				22BC6A8427B30760006596F0 /* StereoBM.h in Headers */,
+				22BC6A6727B3075F006596F0 /* TonemapReinhard.h in Headers */,
+				22BC6ABE27B30760006596F0 /* UsacParams.h in Headers */,
+				22BC6B1A27B30760006596F0 /* CalibrateCRF.h in Headers */,
+				22BC6AC027B30760006596F0 /* intrin_forward.hpp in Headers */,
+				22BC6ACC27B30760006596F0 /* intrin_avx512.hpp in Headers */,
+				22BC6AB827B30760006596F0 /* TrackerMILParams.h in Headers */,
+				22BC6AD727B30760006596F0 /* BRISK.h in Headers */,
+				22BC6A8327B30760006596F0 /* Photo.h in Headers */,
+				22BC6AD227B30760006596F0 /* Moments.h in Headers */,
+				22BC6B3927B30760006596F0 /* SparseOpticalFlow.h in Headers */,
+				22BC6AE127B30760006596F0 /* video.hpp 16-27-26-573.hpp in Headers */,
+				22BC6B0627B30760006596F0 /* imgcodecs.hpp 16-27-26-597.hpp in Headers */,
+				22BC6AE627B30760006596F0 /* ORB.h in Headers */,
+				22BC6B0E27B30760006596F0 /* DMatch.h in Headers */,
+				22BC6A7827B3075F006596F0 /* SVM.h in Headers */,
+				22BC6A5E27B3075F006596F0 /* FaceDetectorYN.h in Headers */,
+				22BC6A7527B3075F006596F0 /* Scalar.h in Headers */,
+				22BC6AC527B30760006596F0 /* dnn.hpp in Headers */,
+				22BC6AEE27B30760006596F0 /* TickMeter.h in Headers */,
+				22BC6B0A27B30760006596F0 /* intrin_sse_em.hpp in Headers */,
+				22BC6A9F27B30760006596F0 /* TextDetectionModel_EAST.h in Headers */,
+				22BC6B4027B30760006596F0 /* Dnn.h in Headers */,
+				22BC6B1B27B30760006596F0 /* DictValue.h in Headers */,
+				22BC6ACB27B30760006596F0 /* ml.hpp 16-27-27-580.hpp in Headers */,
+				22BC6AAD27B30760006596F0 /* version.hpp in Headers */,
+				22BC6AC727B30760006596F0 /* videoio.hpp 16-27-27-525.hpp in Headers */,
+				22BC6A8127B30760006596F0 /* CalibrateDebevec.h in Headers */,
+				22BC6AC127B30760006596F0 /* intrin_wasm.hpp in Headers */,
+				22BC6A6327B3075F006596F0 /* Core.h in Headers */,
+				22BC6AF027B30760006596F0 /* intrin_cpp.hpp in Headers */,
+				22BC6B4427B30760006596F0 /* hal.hpp in Headers */,
+				22BC6AF827B30760006596F0 /* Imgcodecs.h in Headers */,
+				22BC6A6D27B3075F006596F0 /* Model.h in Headers */,
+				22BC6AE427B30760006596F0 /* Converters.h in Headers */,
+				22BC6B4327B30760006596F0 /* base.hpp in Headers */,
+				22BC6A5D27B3075F006596F0 /* Double2.h in Headers */,
+				22BC6AAE27B30760006596F0 /* core.hpp in Headers */,
+				22BC6AC227B30760006596F0 /* stitching.hpp in Headers */,
+				22BC6B0927B30760006596F0 /* intrin_vsx.hpp in Headers */,
+				22BC6AD027B30760006596F0 /* MatOfInt.h in Headers */,
+				22BC6B0B27B30760006596F0 /* MatOfDouble.h in Headers */,
+				22BC6B0F27B30760006596F0 /* Imgproc.h in Headers */,
+				22BC6AFD27B30760006596F0 /* Subdiv2D.h in Headers */,
+				22BC6A8A27B30760006596F0 /* segm.hpp in Headers */,
+				22BC6AB927B30760006596F0 /* KNearest.h in Headers */,
+				22BC6B1227B30760006596F0 /* CvType.h in Headers */,
+				22BC6AAA27B30760006596F0 /* TextRecognitionModel.h in Headers */,
+				22BC6B3727B30760006596F0 /* AgastFeatureDetector.h in Headers */,
+				22BC6AF127B30760006596F0 /* Mat+QuickLook.h in Headers */,
+				22BC6A6627B3075F006596F0 /* BackgroundSubtractorKNN.h in Headers */,
+				22BC6B2927B30760006596F0 /* Features2d.h in Headers */,
+				22BC6AAC27B30760006596F0 /* features2d.hpp in Headers */,
+				22BC6B1927B30760006596F0 /* TrackerGOTURN.h in Headers */,
+				22BC6B3E27B30760006596F0 /* SimpleBlobDetector.h in Headers */,
+				22BC6B2427B30760006596F0 /* calib3d.hpp in Headers */,
+				22BC6AE027B30760006596F0 /* StreamMotionDetection-Bridging-Header.h in Headers */,
+				22BC6AFC27B30760006596F0 /* core.hpp 16-27-26-636.hpp in Headers */,
+				22BC6B2727B30760006596F0 /* cvdef.h in Headers */,
+				22BC6AEA27B30760006596F0 /* opencv_modules.hpp 16-27-27-542.hpp in Headers */,
+				22BC6B0D27B30760006596F0 /* opencv.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +1332,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BC6B1727B30760006596F0 /* video in Resources */,
+				22BC6AF727B30760006596F0 /* photo in Resources */,
+				22BC6A9127B30760006596F0 /* highgui in Resources */,
+				22BC6B2E27B30760006596F0 /* calib3d in Resources */,
+				22BC6AA327B30760006596F0 /* objdetect in Resources */,
+				22BC6A5C27B3075F006596F0 /* flann in Resources */,
+				22BC6B0827B30760006596F0 /* core in Resources */,
+				22BC6A5327B3075F006596F0 /* dnn in Resources */,
+				22BC6AB727B30760006596F0 /* stitching in Resources */,
+				22BC6B2D27B30760006596F0 /* imgproc in Resources */,
+				22BC6A5B27B3075F006596F0 /* ml in Resources */,
+				22BC6AFA27B30760006596F0 /* gapi in Resources */,
+				22BC6ACA27B30760006596F0 /* imgcodecs in Resources */,
+				22BC6B2A27B30760006596F0 /* videoio in Resources */,
+				22BC6B3127B30760006596F0 /* features2d in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +1373,7 @@
 			files = (
 				8AC8A07D1532746040434344ACE5D89D /* StreamMotionDetection.swift in Sources */,
 				C499A2028BCFD705193575ACD5D25307 /* StreamMotionDetection-dummy.m in Sources */,
+				22BC676727B2969A006596F0 /* OpenCVWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

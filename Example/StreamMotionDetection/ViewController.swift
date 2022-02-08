@@ -13,9 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let stream = StreamMotionDetection()
-        
-        stream.hello()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

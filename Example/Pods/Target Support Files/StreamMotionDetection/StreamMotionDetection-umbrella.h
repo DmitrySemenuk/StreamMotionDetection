@@ -1,5 +1,6 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#import "OpenCVWrapper.h"
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
@@ -13,4 +14,3 @@
 
 FOUNDATION_EXPORT double StreamMotionDetectionVersionNumber;
 FOUNDATION_EXPORT const unsigned char StreamMotionDetectionVersionString[];
-
