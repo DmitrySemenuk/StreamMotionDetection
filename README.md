@@ -1,0 +1,29 @@
+# StreamMotionDetection
+
+[![CI Status](https://img.shields.io/travis/DmitrySemenyk23@gmail.com/StreamMotionDetection.svg?style=flat)](https://travis-ci.org/DmitrySemenyk23@gmail.com/StreamMotionDetection)
+[![Version](https://img.shields.io/cocoapods/v/StreamMotionDetection.svg?style=flat)](https://cocoapods.org/pods/StreamMotionDetection)
+[![License](https://img.shields.io/cocoapods/l/StreamMotionDetection.svg?style=flat)](https://cocoapods.org/pods/StreamMotionDetection)
+[![Platform](https://img.shields.io/cocoapods/p/StreamMotionDetection.svg?style=flat)](https://cocoapods.org/pods/StreamMotionDetection)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+StreamMotionDetection is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'StreamMotionDetection'
+```
+
+## Author
+
+DmitrySemenyk23@gmail.com, dzmitry.semianiuk@orangesoft.co
+
+## License
+
+StreamMotionDetection is available under the MIT license. See the LICENSE file for more info.

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'StreamMotionDetection_Example' do
+  pod 'StreamMotionDetection', :path => '../'
+
+  target 'StreamMotionDetection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
