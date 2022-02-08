@@ -1,0 +1,16 @@
+PODS:
+  - StreamMotionDetection (0.1.0)
+
+DEPENDENCIES:
+  - StreamMotionDetection (from `../`)
+
+EXTERNAL SOURCES:
+  StreamMotionDetection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StreamMotionDetection: 9bf8886a246d692460afecdf1bd94793a3853183
+
+PODFILE CHECKSUM: 3d689abe38fd33d65ad4a69a2ce6204922ac7940
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module StreamMotionDetection {
+  umbrella header "StreamMotionDetection-umbrella.h"
+
+  export *
+  module * { export * }
+}
