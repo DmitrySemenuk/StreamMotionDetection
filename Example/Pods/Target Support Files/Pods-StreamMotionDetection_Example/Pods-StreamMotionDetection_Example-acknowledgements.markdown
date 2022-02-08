@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## StreamMotionDetection
 
-Copyright (c) 2022 DmitrySemenyk23@gmail.com <dzmitry.semianiuk@orangesoft.co>
+Copyright (c) 2022 DmitrySemenyk <dzmitry.semianiuk@orangesoft.co>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

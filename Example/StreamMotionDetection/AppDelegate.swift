@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  StreamMotionDetection
 //
-//  Created by DmitrySemenyk23@gmail.com on 02/08/2022.
-//  Copyright (c) 2022 DmitrySemenyk23@gmail.com. All rights reserved.
+//  Created by DmitrySemenyk on 02/08/2022.
+//  Copyright (c) 2022 DmitrySemenyk All rights reserved.
 //
 
 import UIKit

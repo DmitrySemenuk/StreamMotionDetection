@@ -1,6 +1,6 @@
 # StreamMotionDetection
 
-[![CI Status](https://img.shields.io/travis/DmitrySemenyk23@gmail.com/StreamMotionDetection.svg?style=flat)](https://travis-ci.org/DmitrySemenyk23@gmail.com/StreamMotionDetection)
+[![CI Status](https://img.shields.io/travis/DmitrySemenyk/StreamMotionDetection.svg?style=flat)](https://travis-ci.org/DmitrySemenyk/StreamMotionDetection)
 [![Version](https://img.shields.io/cocoapods/v/StreamMotionDetection.svg?style=flat)](https://cocoapods.org/pods/StreamMotionDetection)
 [![License](https://img.shields.io/cocoapods/l/StreamMotionDetection.svg?style=flat)](https://cocoapods.org/pods/StreamMotionDetection)
 [![Platform](https://img.shields.io/cocoapods/p/StreamMotionDetection.svg?style=flat)](https://cocoapods.org/pods/StreamMotionDetection)
