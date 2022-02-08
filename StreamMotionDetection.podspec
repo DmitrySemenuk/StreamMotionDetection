@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'Based on OpenCV'
                        DESC
 
-  s.homepage         = 'https://github.com/DmitrySemenyk23@gmail.com/StreamMotionDetection'
+  s.homepage         = 'https://github.com/DmitrySemenuk/StreamMotionDetection.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DmitrySemenyk23@gmail.com' => 'dzmitry.semianiuk@orangesoft.co' }
-  s.source           = { :git => 'https://github.com/DmitrySemenyk23@gmail.com/StreamMotionDetection.git', :tag => s.version.to_s }
+  s.author           = { 'DmitrySemenyk=' => 'dev.semenuk@gmail.com' }
+  s.source           = { :git => 'https://github.com/DmitrySemenuk/StreamMotionDetection.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'

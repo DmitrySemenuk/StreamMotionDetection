@@ -22,7 +22,7 @@ pod 'StreamMotionDetection'
 
 ## Author
 
-DmitrySemenyk23@gmail.com, dzmitry.semianiuk@orangesoft.co
+dev.semenuk@gmail.com
 
 ## License
 
