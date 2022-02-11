@@ -226,10 +226,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BP6K22DVZM;
 						LastSwiftMigration = 1320;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BP6K22DVZM;
 						LastSwiftMigration = 1320;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -497,6 +499,7 @@
 			baseConfigurationReference = 52E35448AEB594911209D565 /* Pods-StreamMotionDetection_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BP6K22DVZM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -516,6 +519,7 @@
 			baseConfigurationReference = DFB0D662C743AE2F9EA6FD23 /* Pods-StreamMotionDetection_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BP6K22DVZM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -534,7 +538,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A66AF5D2C9347517953C2980 /* Pods-StreamMotionDetection_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = BP6K22DVZM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -557,7 +562,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E67A1C944511C3B6D78AEDAC /* Pods-StreamMotionDetection_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = BP6K22DVZM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
